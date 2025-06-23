@@ -10,14 +10,20 @@
   --icon-hover-color: #008080; /* light mode hover */
 }
 
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {
 	background: linear-gradient(
-		to right #f5faff,
+		to right, #f5faff,
 		#e6f7ff
 	); /* sky blue gradient */
 	color: #222;
-  min-width: 100vh;
+  /* min-width: 100vh; */
 }
 
 body.dark-mode {
@@ -39,7 +45,6 @@ nav {
 	color: #222;
   font-family: 'Inter', sans-serif;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.199);
-  border-radius: 0px 0px 10px 10px;
 }
 nav.dark-mode {
 	background-color: #162d44; /* muted navy */
@@ -108,17 +113,18 @@ nav li:first-child {
   display: none;
 }
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   .hideOnMobile {
     display: none;
   }
+  
   .menubutton {
-    display: block;
-    
+    display: flex;
   }
-}
-@media (max-width: 400px) {
-  .sidebar {
-    width: 100%;
+  
+  @media (max-width: 400px) {
+    .sidebar {
+      width: 100%;
+    }
   }
 }
