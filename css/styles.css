@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "inter", sans-serif;
+}
+:root {
+  --icon-color: #000;          /* light mode */
+  --icon-hover-color: #008080; /* light mode hover */
+}
+
+
+body {
+	background: linear-gradient(
+		to right #f5faff,
+		#e6f7ff
+	); /* sky blue gradient */
+	color: #222;
+  min-width: 100vh;
+}
+
+body.dark-mode {
+	background: linear-gradient(
+		to right,
+		#0d1b2a,
+		#1b263b
+	); /* deep starry gradient */
+	color: #e0e1dd;
+  --icon-color: #e0e1dd;       /* dark mode */
+  --icon-hover-color: #f0a500; /* dark mode hover */
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #d9f1ff; /* gentle morning blue */
+	color: #222;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.199);
+  border-radius: 0px 0px 10px 10px;
+}
+nav.dark-mode {
+	background-color: #162d44; /* muted navy */
+	color: #e0e1dd;
+}
+nav ul {
+	color: #222;
+  font-weight: 500;
+  transition: color 0.3s;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+nav li{
+  height: 50px;
+}
+nav a {
+  height: 100%;
+  padding : 0 30px;
+  text-decoration: none ;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+nav a:hover {
+  color: var(--icon-hover-color);
+}
+
+nav li:first-child {
+  margin-right: auto;
+  font-size: large;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right:0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+	background-color: #d9f1fff3;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+.sidebar li {
+  width : 100%;
+}
+
+.sidebar a {
+  width: 100%;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+.menubutton {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .menubutton {
+    display: block;
+    
+  }
+}
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+}
