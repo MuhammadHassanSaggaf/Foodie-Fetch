@@ -7,41 +7,32 @@ function hideSidebar() {
 	sidebar.style.display = "none";
 }
 
-
 function showMore() {
-	const showbutton = document.querySelector(".button");
-	if (showbutton) {
-		showbutton.style.display = "none";
-	}
-
-	const showDetails = document.querySelector(".show-more");
-	if (showDetails) {
-		showDetails.style.display = "flex";
-	}
-
-	const lessButton = document.querySelector(".read-less-container");
-	if (lessButton) {
-		lessButton.style.display = "flex";
-		// Remove this line to prevent .show-more from being hidden immediately
-		// showDetails.style.display = 'none';
-	}
+	const buttons = document.querySelectorAll(".read-more");
+	buttons.forEach((btn) => {
+		btn.addEventListener("click", () => {
+			const container = btn.closest(".recipe-card");
+			const more = container.querySelector(".show-more");
+			const lessBtn = container.querySelector(".read-less");
+			btn.style.display = "none";
+			if (more) more.style.display = "flex";
+			if (lessBtn) lessBtn.style.display = "flex";
+		});
+	});
 }
+showMore();
 
 function showLess() {
-  const showbutton = document.querySelector(".button");
-	if (showbutton) {
-		showbutton.style.display = "flex";
-	}
-
-	const showDetails = document.querySelector(".show-more");
-	if (showDetails) {
-		showDetails.style.display = "none";
-	}
-
-	const lessButton = document.querySelector(".read-less-container");
-	if (lessButton) {
-		lessButton.style.display = "none";
-		// Remove this line to prevent .show-more from being hidden immediately
-		// showDetails.style.display = 'none';
-	}
+	const buttons = document.querySelectorAll(".read-less");
+	buttons.forEach((btn) => {
+		btn.addEventListener("click", () => {
+			const container = btn.closest(".recipe-card");
+			const more = container.querySelector(".show-more");
+			const showbtn = container.querySelector(".read-more");
+			btn.style.display = "none";
+			if (more) more.style.display = "none";
+			if (showbtn) showbtn.style.display = "flex";
+		});
+	});
 }
+showLess();

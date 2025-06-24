@@ -304,7 +304,6 @@ nav li:first-child {
 	display: flex;
 } */
 .read-less-container {
-  display: none;
   justify-content: center;
   margin-bottom: 10px;
 	margin-top: 10px;
