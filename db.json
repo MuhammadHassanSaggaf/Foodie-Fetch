@@ -1,2055 +1,1152 @@
 {
-	"foods": [
-		{
-			"id": 1,
-			"name": "Pizza Margherita",
-			"description": "Classic Italian pizza with tomatoes, mozzarella cheese, and fresh basil.",
-			"ingredients": [
-				"pizza dough",
-				"tomato sauce",
-				"fresh mozzarella",
-				"basil leaves",
-				"olive oil",
-				"salt"
-			],
-			"instructions": "Preheat oven to 475°F. Spread tomato sauce over rolled out pizza dough, add sliced mozzarella and basil. Drizzle with olive oil and sprinkle with salt. Bake for 10-15 minutes until crust is golden and cheese is bubbly.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 12,
-				"fat": 10,
-				"carbohydrates": 35
-			}
-		},
-		{
-			"id": 2,
-			"name": "Spaghetti Carbonara",
-			"description": "Creamy Italian pasta dish with egg, cheese, pancetta, and pepper.",
-			"ingredients": [
-				"spaghetti",
-				"eggs",
-				"parmesan cheese",
-				"pancetta",
-				"black pepper",
-				"salt"
-			],
-			"instructions": "Cook spaghetti until al dente. In a bowl, whisk eggs and grated parmesan. Fry pancetta until crisp. Toss spaghetti with pancetta, remove from heat, then quickly stir in egg mixture to create a creamy sauce. Season with pepper and serve immediately.",
-			"nutrition": {
-				"calories": 400,
-				"protein": 18,
-				"fat": 20,
-				"carbohydrates": 45
-			}
-		},
-		{
-			"id": 3,
-			"name": "Lasagna",
-			"description": "Baked Italian pasta casserole layered with meat sauce, cheese, and béchamel.",
-			"ingredients": [
-				"lasagna noodles",
-				"ground beef",
-				"tomato sauce",
-				"ricotta cheese",
-				"mozzarella",
-				"parmesan cheese",
-				"onion",
-				"garlic"
-			],
-			"instructions": "Preheat oven to 375°F. Cook lasagna noodles. Prepare meat sauce by sautéing onion and garlic, adding ground beef, and stirring in tomato sauce. In a baking dish, layer noodles, meat sauce, ricotta, and mozzarella. Repeat layers and top with parmesan. Bake for about 45 minutes until bubbly.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 25,
-				"fat": 22,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 4,
-			"name": "Risotto alla Milanese",
-			"description": "Creamy Italian rice dish flavored with saffron and parmesan.",
-			"ingredients": [
-				"arborio rice",
-				"saffron threads",
-				"chicken broth",
-				"onion",
-				"parmesan cheese",
-				"butter",
-				"white wine"
-			],
-			"instructions": "Heat chicken broth. Sauté onion in butter until translucent. Add arborio rice and toast briefly. Stir in white wine until absorbed. Add saffron and ladle broth gradually, stirring, until rice is al dente and creamy. Stir in parmesan and serve warm.",
-			"nutrition": {
-				"calories": 380,
-				"protein": 10,
-				"fat": 15,
-				"carbohydrates": 50
-			}
-		},
-		{
-			"id": 5,
-			"name": "Caprese Salad",
-			"description": "Simple Italian salad with fresh mozzarella, tomatoes, and basil.",
-			"ingredients": [
-				"fresh mozzarella",
-				"tomatoes",
-				"basil leaves",
-				"olive oil",
-				"balsamic vinegar",
-				"salt",
-				"pepper"
-			],
-			"instructions": "Slice tomatoes and mozzarella. Arrange alternating slices on a plate, tucking basil leaves between. Drizzle with olive oil and balsamic, then season with salt and pepper.",
-			"nutrition": {
-				"calories": 200,
-				"protein": 8,
-				"fat": 16,
-				"carbohydrates": 6
-			}
-		},
-		{
-			"id": 6,
-			"name": "Tiramisu",
-			"description": "Classic Italian dessert made with coffee-soaked ladyfingers and mascarpone cream.",
-			"ingredients": [
-				"ladyfingers",
-				"espresso",
-				"mascarpone cheese",
-				"egg yolks",
-				"sugar",
-				"cocoa powder",
-				"coffee liqueur"
-			],
-			"instructions": "Brew espresso and cool. Beat egg yolks with sugar, then mix in mascarpone to form a cream. Dip ladyfingers into espresso (with coffee liqueur if using) and layer in a dish. Spread half the mascarpone cream over them, then add another layer of dipped ladyfingers and top with remaining cream. Refrigerate for several hours, then dust with cocoa powder before serving.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 8,
-				"fat": 30,
-				"carbohydrates": 35
-			}
-		},
-		{
-			"id": 7,
-			"name": "Minestrone Soup",
-			"description": "Italian hearty vegetable soup with pasta and beans.",
-			"ingredients": [
-				"kidney beans",
-				"pasta",
-				"tomatoes",
-				"zucchini",
-				"carrots",
-				"celery",
-				"onion",
-				"vegetable broth",
-				"parsley"
-			],
-			"instructions": "Sauté onions, carrots, celery and zucchini in olive oil until softened. Add tomatoes and broth, bring to a boil. Stir in pasta and beans, simmer until pasta is al dente. Season with salt, pepper, and parsley. Serve hot.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 10,
-				"fat": 5,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 8,
-			"name": "Bruschetta",
-			"description": "Italian appetizer of grilled bread rubbed with garlic and topped with tomato mixture.",
-			"ingredients": [
-				"baguette or Italian bread",
-				"tomatoes",
-				"garlic",
-				"basil",
-				"olive oil",
-				"salt",
-				"pepper"
-			],
-			"instructions": "Slice bread and grill or toast until golden. Rub each slice with garlic. In a bowl, mix chopped tomatoes, basil, olive oil, salt and pepper. Spoon tomato mixture onto the bread slices and serve immediately.",
-			"nutrition": {
-				"calories": 150,
-				"protein": 3,
-				"fat": 4,
-				"carbohydrates": 25
-			}
-		},
-		{
-			"id": 9,
-			"name": "Gnocchi with Pesto",
-			"description": "Potato gnocchi tossed in vibrant basil pesto sauce.",
-			"ingredients": [
-				"potatoes",
-				"flour",
-				"egg",
-				"basil",
-				"pine nuts",
-				"parmesan cheese",
-				"garlic",
-				"olive oil"
-			],
-			"instructions": "Boil potatoes and mash. Mix with flour and egg to form dough; roll into ropes and cut into pieces. Boil gnocchi until they float. Blend basil, garlic, pine nuts, parmesan and olive oil to make pesto. Toss cooked gnocchi with pesto and serve.",
-			"nutrition": {
-				"calories": 500,
-				"protein": 12,
-				"fat": 28,
-				"carbohydrates": 55
-			}
-		},
-		{
-			"id": 10,
-			"name": "Focaccia Bread",
-			"description": "Italian flatbread topped with herbs and olive oil.",
-			"ingredients": [
-				"all-purpose flour",
-				"yeast",
-				"water",
-				"olive oil",
-				"rosemary",
-				"salt"
-			],
-			"instructions": "Combine flour, yeast, water and a bit of olive oil to make dough. Let rise until doubled. Spread dough onto a baking sheet, dimple the surface, drizzle with olive oil, and sprinkle with rosemary and salt. Bake at 425°F for 20 minutes until golden brown.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 8,
-				"fat": 15,
-				"carbohydrates": 35
-			}
-		},
-		{
-			"id": 11,
-			"name": "Tacos al Pastor",
-			"description": "Mexican street tacos with marinated pork and pineapple.",
-			"ingredients": [
-				"pork shoulder",
-				"pineapple",
-				"achiote paste",
-				"onion",
-				"cilantro",
-				"corn tortillas",
-				"lime"
-			],
-			"instructions": "Marinate thin pork slices in achiote paste and citrus juice, then grill or roast. Chop pork and mix with diced pineapple. Serve on warmed corn tortillas with chopped onion, cilantro and a squeeze of lime.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 15,
-				"fat": 10,
-				"carbohydrates": 20
-			}
-		},
-		{
-			"id": 12,
-			"name": "Chicken Enchiladas",
-			"description": "Corn tortillas filled with chicken and cheese, topped with enchilada sauce.",
-			"ingredients": [
-				"corn tortillas",
-				"shredded chicken",
-				"enchilada sauce",
-				"cheddar cheese",
-				"onion",
-				"garlic",
-				"cilantro"
-			],
-			"instructions": "Preheat oven to 350°F. Fill tortillas with shredded chicken and some cheese, roll up, and place in a baking dish. Pour enchilada sauce over the top and sprinkle with more cheese. Bake until hot and bubbly, then garnish with cilantro.",
-			"nutrition": {
-				"calories": 400,
-				"protein": 25,
-				"fat": 18,
-				"carbohydrates": 35
-			}
-		},
-		{
-			"id": 13,
-			"name": "Guacamole",
-			"description": "Creamy Mexican avocado dip with lime and cilantro.",
-			"ingredients": [
-				"avocados",
-				"lime juice",
-				"cilantro",
-				"red onion",
-				"jalapeño",
-				"salt"
-			],
-			"instructions": "Mash ripe avocados in a bowl. Mix in chopped red onion, cilantro, diced jalapeño and lime juice. Season with salt. Serve immediately with tortilla chips.",
-			"nutrition": {
-				"calories": 200,
-				"protein": 3,
-				"fat": 18,
-				"carbohydrates": 12
-			}
-		},
-		{
-			"id": 14,
-			"name": "Quesadilla",
-			"description": "Grilled tortilla filled with melted cheese and optional fillings.",
-			"ingredients": [
-				"flour tortillas",
-				"cheddar cheese",
-				"chicken (optional)",
-				"bell peppers",
-				"onion",
-				"salsa"
-			],
-			"instructions": "Heat a skillet and place a tortilla on it. Add shredded cheese and desired fillings like cooked chicken and peppers. Top with another tortilla. Cook until golden on both sides and cheese is melted. Cut into wedges and serve with salsa.",
-			"nutrition": {
-				"calories": 350,
-				"protein": 15,
-				"fat": 15,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 15,
-			"name": "Chiles Rellenos",
-			"description": "Roasted poblano peppers stuffed with cheese, battered and fried.",
-			"ingredients": [
-				"poblano peppers",
-				"queso fresco",
-				"egg",
-				"flour",
-				"tomato sauce"
-			],
-			"instructions": "Roast peppers and peel skins. Make a slit and remove seeds. Stuff with queso fresco. Dip each pepper in flour, then beaten egg, and fry until golden. Serve with warm tomato sauce drizzled on top.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 10,
-				"fat": 20,
-				"carbohydrates": 20
-			}
-		},
-		{
-			"id": 16,
-			"name": "Mole Poblano",
-			"description": "Rich Mexican sauce with chili, chocolate, and spices, served over chicken.",
-			"ingredients": [
-				"chicken pieces",
-				"dried chilies",
-				"chocolate",
-				"almonds",
-				"peanuts",
-				"spices (cinnamon, cloves, etc.)",
-				"tomatoes"
-			],
-			"instructions": "Toast chilies, nuts and spices. Blend with tomatoes, chocolate and broth to make a thick sauce. Simmer chicken in the mole sauce until cooked through. Serve hot with a sprinkle of sesame seeds.",
-			"nutrition": {
-				"calories": 500,
-				"protein": 30,
-				"fat": 25,
-				"carbohydrates": 35
-			}
-		},
-		{
-			"id": 17,
-			"name": "Churros",
-			"description": "Fried dough pastry sprinkled with sugar and cinnamon.",
-			"ingredients": [
-				"water",
-				"butter",
-				"flour",
-				"eggs",
-				"sugar",
-				"cinnamon",
-				"oil for frying"
-			],
-			"instructions": "Bring water and butter to boil, then stir in flour to form dough. Let it cool slightly and beat in eggs. Pipe dough into hot oil and fry until golden. Roll fried churros in cinnamon-sugar mixture.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 8,
-				"fat": 20,
-				"carbohydrates": 60
-			}
-		},
-		{
-			"id": 18,
-			"name": "Tamales",
-			"description": "Steamed masa dough stuffed with seasoned meat filling.",
-			"ingredients": [
-				"masa harina",
-				"pork or chicken",
-				"tomato",
-				"chili powder",
-				"corn husks",
-				"lard or vegetable shortening"
-			],
-			"instructions": "Soak corn husks. Prepare masa dough with masa harina and fat. Season shredded meat with tomato and chili. Spread masa on husks, add filling, fold and tie. Steam tamales for about 1 hour until firm.",
-			"nutrition": {
-				"calories": 350,
-				"protein": 10,
-				"fat": 20,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 19,
-			"name": "Pico de Gallo",
-			"description": "Fresh Mexican salsa made with chopped tomatoes, onion, and cilantro.",
-			"ingredients": [
-				"tomatoes",
-				"onion",
-				"cilantro",
-				"lime juice",
-				"jalapeño",
-				"salt"
-			],
-			"instructions": "Chop tomatoes, onion, cilantro, and jalapeño finely. Mix together in a bowl and squeeze fresh lime juice over it. Season with salt and stir to combine. Serve fresh.",
-			"nutrition": {
-				"calories": 80,
-				"protein": 2,
-				"fat": 0.5,
-				"carbohydrates": 10
-			}
-		},
-		{
-			"id": 20,
-			"name": "Horchata",
-			"description": "Refreshing Mexican rice milk drink flavored with cinnamon.",
-			"ingredients": ["rice", "almond milk", "cinnamon", "sugar", "vanilla"],
-			"instructions": "Soak rice in water with cinnamon overnight, then blend until smooth. Strain the mixture and mix with almond milk, sugar, and vanilla. Serve chilled over ice.",
-			"nutrition": {
-				"calories": 150,
-				"protein": 2,
-				"fat": 2,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 21,
-			"name": "Butter Chicken",
-			"description": "Creamy tomato-based curry with tender chicken pieces.",
-			"ingredients": [
-				"chicken",
-				"tomato puree",
-				"cream",
-				"garam masala",
-				"ginger",
-				"garlic",
-				"butter"
-			],
-			"instructions": "Marinate chicken in yogurt and spices, then sauté. Make a sauce with butter, tomato puree, garlic, ginger and spices. Add chicken to the sauce and simmer until cooked. Stir in cream before serving.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 35,
-				"fat": 25,
-				"carbohydrates": 10
-			}
-		},
-		{
-			"id": 22,
-			"name": "Vegetable Biryani",
-			"description": "Fragrant rice dish cooked with mixed vegetables and spices.",
-			"ingredients": [
-				"basmati rice",
-				"carrots",
-				"peas",
-				"potatoes",
-				"onion",
-				"ginger",
-				"garam masala",
-				"saffron",
-				"yogurt"
-			],
-			"instructions": "Parboil basmati rice with spices and set aside. Sauté vegetables with onions, ginger, and spices. Layer rice and vegetables in a pot, pour saffron-infused milk on top. Cover and cook on low until rice is fluffy.",
-			"nutrition": {
-				"calories": 400,
-				"protein": 8,
-				"fat": 10,
-				"carbohydrates": 70
-			}
-		},
-		{
-			"id": 23,
-			"name": "Chicken Tikka Masala",
-			"description": "Grilled chicken chunks in a creamy spiced tomato sauce.",
-			"ingredients": [
-				"chicken",
-				"yogurt",
-				"garam masala",
-				"tomato sauce",
-				"cream",
-				"cumin",
-				"paprika",
-				"garlic"
-			],
-			"instructions": "Marinate chicken pieces in yogurt and spices, then grill or broil. For the sauce, sauté garlic and spices, add tomato sauce and cream to simmer. Stir in cooked chicken and heat through. Garnish with cilantro.",
-			"nutrition": {
-				"calories": 500,
-				"protein": 30,
-				"fat": 28,
-				"carbohydrates": 20
-			}
-		},
-		{
-			"id": 24,
-			"name": "Samosa",
-			"description": "Fried pastry pockets filled with spiced potatoes and peas.",
-			"ingredients": [
-				"potatoes",
-				"peas",
-				"flour",
-				"onion",
-				"cumin",
-				"coriander",
-				"garlic",
-				"oil for frying"
-			],
-			"instructions": "Boil and mash potatoes. Sauté onion, peas, and spices, then mix with potatoes. Wrap filling in thin dough sheets to make triangles. Deep fry the samosas until golden brown and crispy.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 4,
-				"fat": 15,
-				"carbohydrates": 25
-			}
-		},
-		{
-			"id": 25,
-			"name": "Palak Paneer",
-			"description": "Indian curry with spinach (palak) and paneer cheese.",
-			"ingredients": [
-				"spinach",
-				"paneer",
-				"onion",
-				"garlic",
-				"ginger",
-				"garam masala",
-				"cream",
-				"tomatoes"
-			],
-			"instructions": "Blanch spinach and puree. Fry onions, garlic and ginger, then add tomato and spices. Add pureed spinach and paneer cubes to simmer. Stir in a bit of cream and serve hot.",
-			"nutrition": {
-				"calories": 350,
-				"protein": 14,
-				"fat": 20,
-				"carbohydrates": 12
-			}
-		},
-		{
-			"id": 26,
-			"name": "Dal Tadka",
-			"description": "Yellow lentils tempered with spices and garlic.",
-			"ingredients": [
-				"yellow lentils (toor dal)",
-				"garlic",
-				"cumin",
-				"mustard seeds",
-				"turmeric",
-				"chili powder",
-				"ghee",
-				"tomatoes"
-			],
-			"instructions": "Cook lentils with turmeric until soft. In a pan, heat ghee and sauté cumin, mustard seeds, garlic and chilies. Pour this seasoning (tadka) over the cooked dal with chopped tomatoes. Simmer for a few minutes and garnish with cilantro.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 12,
-				"fat": 10,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 27,
-			"name": "Naan",
-			"description": "Leavened Indian flatbread, baked in a tandoor or oven.",
-			"ingredients": [
-				"flour",
-				"yeast",
-				"yogurt",
-				"water",
-				"salt",
-				"garlic (optional)"
-			],
-			"instructions": "Mix flour, yeast, yogurt, salt and water to form dough. Let it rise. Roll out dough into flat rounds, brush with oil or garlic butter. Bake at high heat or cook on a skillet until puffy and golden.",
-			"nutrition": {
-				"calories": 200,
-				"protein": 6,
-				"fat": 4,
-				"carbohydrates": 35
-			}
-		},
-		{
-			"id": 28,
-			"name": "Gulab Jamun",
-			"description": "Sweet Indian dessert of fried dough balls soaked in syrup.",
-			"ingredients": [
-				"milk powder",
-				"flour",
-				"ghee",
-				"sugar",
-				"water",
-				"cardamom"
-			],
-			"instructions": "Mix milk powder, flour, ghee and water to form a dough. Roll into small balls. Fry in ghee or oil until golden. In the meantime, prepare sugar syrup with water, sugar and cardamom. Soak the fried dough balls in warm syrup.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 4,
-				"fat": 12,
-				"carbohydrates": 45
-			}
-		},
-		{
-			"id": 29,
-			"name": "Masala Chai",
-			"description": "Spiced Indian tea with milk and aromatic spices.",
-			"ingredients": [
-				"black tea leaves",
-				"milk",
-				"water",
-				"ginger",
-				"cardamom",
-				"cinnamon",
-				"sugar"
-			],
-			"instructions": "Boil water with crushed ginger, cardamom and cinnamon. Add tea leaves and simmer briefly. Pour in milk and bring to a gentle boil. Strain and sweeten with sugar as desired.",
-			"nutrition": {
-				"calories": 100,
-				"protein": 2,
-				"fat": 2,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 30,
-			"name": "Aloo Gobi",
-			"description": "Dry curry of potatoes and cauliflower with turmeric and spices.",
-			"ingredients": [
-				"potatoes",
-				"cauliflower",
-				"turmeric",
-				"cumin",
-				"garlic",
-				"onion",
-				"tomatoes",
-				"cilantro"
-			],
-			"instructions": "Sauté cumin and garlic in oil. Add diced potatoes, cauliflower florets, turmeric and other spices. Cook until vegetables begin to soften. Add chopped tomatoes and cook until done. Garnish with cilantro.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 5,
-				"fat": 10,
-				"carbohydrates": 35
-			}
-		},
-		{
-			"id": 31,
-			"name": "Pad Thai",
-			"description": "Stir-fried rice noodle dish with shrimp, tofu, peanuts, and bean sprouts.",
-			"ingredients": [
-				"rice noodles",
-				"shrimp",
-				"tofu",
-				"bean sprouts",
-				"peanuts",
-				"eggs",
-				"tamarind paste",
-				"fish sauce",
-				"garlic"
-			],
-			"instructions": "Soak rice noodles until pliable. Stir-fry garlic, shrimp and tofu. Push to side and scramble eggs. Mix tamarind paste, fish sauce, and a bit of sugar into a sauce. Add noodles and sauce to the pan, toss with bean sprouts. Serve topped with chopped peanuts and lime wedges.",
-			"nutrition": {
-				"calories": 500,
-				"protein": 20,
-				"fat": 18,
-				"carbohydrates": 60
-			}
-		},
-		{
-			"id": 32,
-			"name": "Green Curry",
-			"description": "Thai curry with coconut milk, green curry paste, and vegetables or meat.",
-			"ingredients": [
-				"green curry paste",
-				"coconut milk",
-				"chicken or tofu",
-				"bamboo shoots",
-				"eggplant",
-				"Thai basil",
-				"fish sauce"
-			],
-			"instructions": "Heat green curry paste in a pot, add chicken and stir until coated. Pour in coconut milk and simmer. Add bamboo shoots, eggplant, and other veggies, cooking until tender. Season with fish sauce. Serve garnished with basil leaves and jasmine rice.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 15,
-				"fat": 30,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 33,
-			"name": "Tom Yum Soup",
-			"description": "Hot and sour Thai soup with shrimp, lemongrass, and mushrooms.",
-			"ingredients": [
-				"shrimp",
-				"lemongrass",
-				"galangal",
-				"lime juice",
-				"fish sauce",
-				"mushrooms",
-				"chilies",
-				"cilantro"
-			],
-			"instructions": "Boil water with sliced lemongrass and galangal. Add shrimp and mushrooms, cooking until shrimp turns pink. Season with fish sauce and lime juice, and add chopped chilies. Garnish with cilantro leaves and serve hot.",
-			"nutrition": {
-				"calories": 150,
-				"protein": 12,
-				"fat": 4,
-				"carbohydrates": 12
-			}
-		},
-		{
-			"id": 34,
-			"name": "Mango Sticky Rice",
-			"description": "Sweet Thai dessert of sticky rice with coconut milk and mango.",
-			"ingredients": [
-				"glutinous rice",
-				"coconut milk",
-				"mango",
-				"sugar",
-				"salt"
-			],
-			"instructions": "Soak glutinous rice, then steam until cooked. Heat coconut milk with sugar and salt. Pour most of the coconut milk over cooked rice and let it absorb. Serve sticky rice topped with slices of fresh mango and a drizzle of remaining coconut milk.",
-			"nutrition": {
-				"calories": 400,
-				"protein": 6,
-				"fat": 12,
-				"carbohydrates": 75
-			}
-		},
-		{
-			"id": 35,
-			"name": "Som Tam",
-			"description": "Thai green papaya salad with lime, chili, and peanuts.",
-			"ingredients": [
-				"green papaya",
-				"cherry tomatoes",
-				"long beans",
-				"lime",
-				"chilies",
-				"fish sauce",
-				"peanuts",
-				"garlic"
-			],
-			"instructions": "Pound garlic and chilies in a mortar. Add shredded papaya, chopped tomatoes, and long beans. Crush lightly with a pestle, then squeeze in lime juice, fish sauce, and a little sugar. Toss in roasted peanuts and serve.",
-			"nutrition": {
-				"calories": 120,
-				"protein": 2,
-				"fat": 4,
-				"carbohydrates": 20
-			}
-		},
-		{
-			"id": 36,
-			"name": "Cheeseburger",
-			"description": "Classic American grilled beef burger with cheese, lettuce, and tomato.",
-			"ingredients": [
-				"ground beef patty",
-				"cheddar cheese",
-				"burger bun",
-				"lettuce",
-				"tomato",
-				"onion",
-				"ketchup",
-				"mustard"
-			],
-			"instructions": "Grill the beef patty to desired doneness. Toast the bun halves. Place the patty on the bun, top with cheese, lettuce, tomato, onion, ketchup and mustard. Serve with pickles and fries.",
-			"nutrition": {
-				"calories": 600,
-				"protein": 35,
-				"fat": 30,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 37,
-			"name": "BBQ Ribs",
-			"description": "Slow-cooked pork ribs slathered in barbecue sauce.",
-			"ingredients": [
-				"pork ribs",
-				"barbecue sauce",
-				"brown sugar",
-				"paprika",
-				"garlic powder",
-				"salt",
-				"pepper"
-			],
-			"instructions": "Rub ribs with brown sugar and spices. Slow-cook or bake covered with foil at 300°F for 2-3 hours until tender. Uncover, brush generously with barbecue sauce, and bake for 15 more minutes. Slice and serve with extra sauce.",
-			"nutrition": {
-				"calories": 500,
-				"protein": 25,
-				"fat": 35,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 38,
-			"name": "Mac and Cheese",
-			"description": "Creamy American comfort food with macaroni pasta and cheese sauce.",
-			"ingredients": [
-				"elbow macaroni",
-				"cheddar cheese",
-				"milk",
-				"butter",
-				"flour",
-				"breadcrumbs"
-			],
-			"instructions": "Cook macaroni until al dente. Make a roux with butter and flour, then whisk in milk to make sauce. Stir in shredded cheese to melt. Combine sauce with drained macaroni in a baking dish, top with breadcrumbs, and bake until bubbly.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 18,
-				"fat": 25,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 39,
-			"name": "Caesar Salad",
-			"description": "Salad of romaine lettuce with Caesar dressing, croutons, and parmesan.",
-			"ingredients": [
-				"romaine lettuce",
-				"croutons",
-				"parmesan cheese",
-				"olive oil",
-				"lemon juice",
-				"egg",
-				"anchovies",
-				"garlic"
-			],
-			"instructions": "Whisk together olive oil, lemon juice, crushed garlic, anchovies, and egg to make dressing. Toss chopped lettuce with dressing, croutons and shaved parmesan. Serve immediately.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 6,
-				"fat": 22,
-				"carbohydrates": 10
-			}
-		},
-		{
-			"id": 40,
-			"name": "Apple Pie",
-			"description": "Classic American dessert of spiced apple filling in a flaky crust.",
-			"ingredients": [
-				"apples",
-				"sugar",
-				"cinnamon",
-				"pie crust",
-				"butter",
-				"lemon juice"
-			],
-			"instructions": "Peel and slice apples, then toss with sugar, lemon juice, and cinnamon. Fill a pastry-lined pie dish with the apples, dot with butter, and cover with top crust. Bake at 375°F until crust is golden and filling is bubbly.",
-			"nutrition": {
-				"calories": 350,
-				"protein": 3,
-				"fat": 18,
-				"carbohydrates": 45
-			}
-		},
-		{
-			"id": 41,
-			"name": "Clam Chowder",
-			"description": "Creamy soup with clams, potatoes, and bacon.",
-			"ingredients": [
-				"clams",
-				"potatoes",
-				"onion",
-				"celery",
-				"bacon",
-				"cream",
-				"butter",
-				"flour"
-			],
-			"instructions": "Cook bacon until crisp, then sauté onions and celery in the rendered fat. Stir in flour to form a roux, gradually add clam juice and cream. Add diced potatoes and clams and simmer until potatoes are tender. Serve garnished with parsley.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 10,
-				"fat": 15,
-				"carbohydrates": 25
-			}
-		},
-		{
-			"id": 42,
-			"name": "Pancakes",
-			"description": "Fluffy American breakfast pancakes served with maple syrup.",
-			"ingredients": [
-				"flour",
-				"milk",
-				"egg",
-				"baking powder",
-				"salt",
-				"butter",
-				"syrup"
-			],
-			"instructions": "Mix flour, baking powder, salt, milk, egg, and melted butter to form batter. Pour batter onto a hot griddle or pan, cooking until bubbles form, then flip to cook the other side. Stack pancakes and serve with butter and syrup.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 6,
-				"fat": 8,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 43,
-			"name": "Buffalo Wings",
-			"description": "Spicy deep-fried chicken wings tossed in buffalo sauce.",
-			"ingredients": [
-				"chicken wings",
-				"hot sauce",
-				"butter",
-				"garlic powder",
-				"paprika",
-				"celery",
-				"blue cheese"
-			],
-			"instructions": "Deep-fry chicken wings until crispy. In a saucepan, melt butter and mix with hot sauce and spices. Toss the wings in the buffalo sauce. Serve hot with celery sticks and blue cheese dip.",
-			"nutrition": {
-				"calories": 400,
-				"protein": 20,
-				"fat": 25,
-				"carbohydrates": 10
-			}
-		},
-		{
-			"id": 44,
-			"name": "Cobb Salad",
-			"description": "Hearty American salad with chicken, bacon, egg, and blue cheese.",
-			"ingredients": [
-				"chicken breast",
-				"bacon",
-				"hard-boiled egg",
-				"romaine lettuce",
-				"tomatoes",
-				"avocado",
-				"blue cheese",
-				"vinaigrette"
-			],
-			"instructions": "Grill chicken and cook bacon, then chop. On a platter, arrange lettuce, sliced chicken, bacon, quartered eggs, chopped tomatoes, avocado slices and crumbled blue cheese. Drizzle with vinaigrette and toss before serving.",
-			"nutrition": {
-				"calories": 500,
-				"protein": 30,
-				"fat": 35,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 45,
-			"name": "Cornbread",
-			"description": "Southern baked bread made from cornmeal.",
-			"ingredients": [
-				"cornmeal",
-				"flour",
-				"baking powder",
-				"milk",
-				"egg",
-				"butter"
-			],
-			"instructions": "Preheat oven to 375°F. Mix cornmeal, flour, baking powder, milk, egg, and melted butter into a batter. Pour into a greased pan and bake until golden brown. Serve warm with butter.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 6,
-				"fat": 10,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 46,
-			"name": "Kung Pao Chicken",
-			"description": "Spicy stir-fried Chinese dish with chicken, peanuts, and chili peppers.",
-			"ingredients": [
-				"chicken",
-				"dried red chilies",
-				"peanuts",
-				"soy sauce",
-				"garlic",
-				"ginger",
-				"scallions"
-			],
-			"instructions": "Marinate chicken in soy sauce and cornstarch. Stir-fry garlic, ginger, and chilies, add chicken until cooked. Stir in soy sauce, vinegar, sugar, and peanuts, cooking until sauce thickens. Garnish with scallions.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 25,
-				"fat": 20,
-				"carbohydrates": 25
-			}
-		},
-		{
-			"id": 47,
-			"name": "Sweet and Sour Pork",
-			"description": "Chinese dish with battered pork and sweet-sour sauce with pineapple.",
-			"ingredients": [
-				"pork tenderloin",
-				"pineapple",
-				"bell peppers",
-				"vinegar",
-				"ketchup",
-				"sugar",
-				"cornstarch"
-			],
-			"instructions": "Cut pork into pieces, coat in cornstarch and fry until golden. Stir-fry bell peppers and pineapple. Mix vinegar, ketchup, and sugar for sauce. Combine pork with vegetables and sauce in the pan and simmer until sauce thickens.",
-			"nutrition": {
-				"calories": 400,
-				"protein": 20,
-				"fat": 25,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 48,
-			"name": "Fried Rice",
-			"description": "Stir-fried rice with eggs, vegetables, and choice of meat or shrimp.",
-			"ingredients": [
-				"rice",
-				"eggs",
-				"peas",
-				"carrots",
-				"soy sauce",
-				"scallions",
-				"shrimp"
-			],
-			"instructions": "Use leftover cooked rice. Stir-fry vegetables and shrimp, push to one side, scramble eggs on other side. Mix rice with everything, add soy sauce, and stir-fry until well combined. Top with chopped scallions.",
-			"nutrition": {
-				"calories": 350,
-				"protein": 10,
-				"fat": 15,
-				"carbohydrates": 45
-			}
-		},
-		{
-			"id": 49,
-			"name": "Dim Sum",
-			"description": "Assorted Chinese bite-sized steamed dumplings and buns, often in bamboo baskets.",
-			"ingredients": [
-				"shrimp dumplings",
-				"pork buns",
-				"steamer",
-				"soy sauce",
-				"vinegar",
-				"ginger"
-			],
-			"instructions": "Prepare various fillings like shrimp and pork. Wrap fillings in dumpling or bun dough. Steam the dumplings and buns in bamboo baskets until cooked. Serve with soy sauce and vinegar dipping sauce.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 12,
-				"fat": 8,
-				"carbohydrates": 45
-			}
-		},
-		{
-			"id": 50,
-			"name": "Spring Rolls",
-			"description": "Crispy Chinese appetizer rolls filled with vegetables or meat.",
-			"ingredients": [
-				"spring roll wrappers",
-				"cabbage",
-				"carrot",
-				"mushrooms",
-				"soy sauce",
-				"garlic",
-				"ginger",
-				"oil for frying"
-			],
-			"instructions": "Sauté chopped cabbage, carrot, mushrooms, garlic, and ginger in oil until soft. Season with soy sauce. Wrap the filling in spring roll wrappers and seal with a flour-water paste. Deep fry until golden.",
-			"nutrition": {
-				"calories": 200,
-				"protein": 4,
-				"fat": 10,
-				"carbohydrates": 25
-			}
-		},
-		{
-			"id": 51,
-			"name": "Peking Duck",
-			"description": "Crispy roasted duck served with pancakes and hoisin sauce.",
-			"ingredients": [
-				"whole duck",
-				"honey",
-				"soy sauce",
-				"hoisin sauce",
-				"scallions",
-				"cucumbers",
-				"pancakes"
-			],
-			"instructions": "Glaze duck with honey and soy sauce, then roast at high heat until skin is crispy. Carve the duck and serve slices on thin pancakes with hoisin sauce, scallions, and cucumber strips.",
-			"nutrition": {
-				"calories": 600,
-				"protein": 40,
-				"fat": 50,
-				"carbohydrates": 10
-			}
-		},
-		{
-			"id": 52,
-			"name": "Dumplings",
-			"description": "Steamed or fried dough pockets filled with meat or vegetables.",
-			"ingredients": [
-				"dumpling wrappers",
-				"ground pork",
-				"cabbage",
-				"ginger",
-				"soy sauce",
-				"sesame oil"
-			],
-			"instructions": "Mix ground pork with chopped cabbage, ginger, soy sauce and sesame oil for filling. Place a spoonful in the center of a wrapper, fold and seal. Steam or pan-fry the dumplings until cooked through. Serve with dipping sauce.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 15,
-				"fat": 10,
-				"carbohydrates": 25
-			}
-		},
-		{
-			"id": 53,
-			"name": "Mapo Tofu",
-			"description": "Spicy Sichuan dish of tofu in chili bean paste sauce with pork.",
-			"ingredients": [
-				"tofu",
-				"ground pork",
-				"doubanjiang (chili bean paste)",
-				"garlic",
-				"ginger",
-				"scallions"
-			],
-			"instructions": "Sauté garlic, ginger, and ground pork. Stir in doubanjiang and a bit of broth, add cubed tofu gently. Simmer to absorb flavors. Garnish with scallions and a drizzle of sesame oil.",
-			"nutrition": {
-				"calories": 350,
-				"protein": 10,
-				"fat": 20,
-				"carbohydrates": 18
-			}
-		},
-		{
-			"id": 54,
-			"name": "Hot and Sour Soup",
-			"description": "Chinese soup with mushrooms, tofu, and a tangy hot-sour flavor.",
-			"ingredients": [
-				"mushrooms",
-				"tofu",
-				"bamboo shoots",
-				"chicken broth",
-				"vinegar",
-				"white pepper",
-				"egg"
-			],
-			"instructions": "Bring broth to a boil. Add sliced mushrooms, bamboo shoots and cubed tofu. Season with soy sauce, vinegar, and white pepper. Slowly stir in beaten egg to create silky strands. Serve hot.",
-			"nutrition": {
-				"calories": 150,
-				"protein": 6,
-				"fat": 4,
-				"carbohydrates": 10
-			}
-		},
-		{
-			"id": 55,
-			"name": "Chow Mein",
-			"description": "Chinese stir-fried noodles with vegetables and meat or tofu.",
-			"ingredients": [
-				"egg noodles",
-				"cabbage",
-				"carrots",
-				"bean sprouts",
-				"soy sauce",
-				"chicken or tofu"
-			],
-			"instructions": "Cook egg noodles and set aside. Stir-fry vegetables and protein. Add noodles back to pan, pour in soy sauce and toss everything together until heated through. Serve immediately.",
-			"nutrition": {
-				"calories": 400,
-				"protein": 12,
-				"fat": 12,
-				"carbohydrates": 60
-			}
-		},
-		{
-			"id": 56,
-			"name": "Falafel",
-			"description": "Deep-fried balls made from ground chickpeas and herbs.",
-			"ingredients": [
-				"chickpeas",
-				"parsley",
-				"onion",
-				"garlic",
-				"cumin",
-				"coriander",
-				"flour"
-			],
-			"instructions": "Soak and blend chickpeas with parsley, onion, garlic, cumin, and coriander until coarse. Form mixture into balls or patties. Deep fry until golden brown and crispy. Serve with tahini sauce or in pita.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 10,
-				"fat": 15,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 57,
-			"name": "Hummus",
-			"description": "Creamy dip made from blended chickpeas, tahini, and lemon.",
-			"ingredients": [
-				"chickpeas",
-				"tahini",
-				"lemon juice",
-				"garlic",
-				"olive oil",
-				"salt",
-				"paprika"
-			],
-			"instructions": "Blend cooked chickpeas with tahini, lemon juice, garlic, and salt until smooth. Drizzle in olive oil while blending for creaminess. Transfer to a bowl and sprinkle with paprika before serving.",
-			"nutrition": {
-				"calories": 150,
-				"protein": 5,
-				"fat": 10,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 58,
-			"name": "Chicken Shawarma",
-			"description": "Middle Eastern spiced grilled chicken, often served in pita.",
-			"ingredients": [
-				"chicken thighs",
-				"yogurt",
-				"lemon juice",
-				"garlic",
-				"cumin",
-				"paprika",
-				"turmeric"
-			],
-			"instructions": "Marinate chicken in yogurt, lemon juice and spices, then grill or roast until cooked through. Slice thinly and serve in pita bread with vegetables and tahini or garlic sauce.",
-			"nutrition": {
-				"calories": 400,
-				"protein": 28,
-				"fat": 20,
-				"carbohydrates": 25
-			}
-		},
-		{
-			"id": 59,
-			"name": "Tabbouleh",
-			"description": "Lebanese salad of parsley, bulgur, tomatoes, and mint.",
-			"ingredients": [
-				"parsley",
-				"bulgur wheat",
-				"tomatoes",
-				"mint",
-				"lemon juice",
-				"olive oil",
-				"onion"
-			],
-			"instructions": "Soak bulgur in water until tender. Chop parsley, tomatoes, mint, and onion finely. Toss together with drained bulgur, lemon juice, olive oil, and salt.",
-			"nutrition": {
-				"calories": 120,
-				"protein": 5,
-				"fat": 5,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 60,
-			"name": "Baklava",
-			"description": "Sweet pastry layers with nuts and honey syrup.",
-			"ingredients": [
-				"phyllo dough",
-				"walnuts",
-				"butter",
-				"sugar",
-				"honey",
-				"cinnamon"
-			],
-			"instructions": "Layer sheets of phyllo in a pan, brushing each with butter. Sprinkle chopped walnuts and cinnamon between layers. After baking until golden, pour sugar and honey syrup over it. Let it soak before cutting.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 7,
-				"fat": 25,
-				"carbohydrates": 45
-			}
-		},
-		{
-			"id": 61,
-			"name": "Baba Ganoush",
-			"description": "Smoky Middle Eastern dip made from roasted eggplant.",
-			"ingredients": [
-				"eggplants",
-				"tahini",
-				"garlic",
-				"lemon juice",
-				"olive oil",
-				"salt",
-				"parsley"
-			],
-			"instructions": "Roast or grill eggplants until skins char. Scoop out flesh and blend with tahini, garlic, lemon juice, and salt until smooth. Drizzle with olive oil and garnish with parsley.",
-			"nutrition": {
-				"calories": 100,
-				"protein": 3,
-				"fat": 8,
-				"carbohydrates": 7
-			}
-		},
-		{
-			"id": 62,
-			"name": "Kibbeh",
-			"description": "Fried Middle Eastern croquette made with bulgur and spiced meat.",
-			"ingredients": [
-				"bulgur wheat",
-				"ground beef",
-				"pine nuts",
-				"onion",
-				"cumin",
-				"allspice",
-				"mint"
-			],
-			"instructions": "Soak bulgur and mix with ground beef and spices to form a dough. Make a stuffing of cooked beef, onions and pine nuts. Form shells from dough, fill with stuffing, and shape into ovals. Fry until golden brown.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 12,
-				"fat": 10,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 63,
-			"name": "Fattoush",
-			"description": "Levantine salad with toasted pita and fresh vegetables.",
-			"ingredients": [
-				"romaine lettuce",
-				"tomatoes",
-				"cucumbers",
-				"radishes",
-				"mint",
-				"pita bread",
-				"olive oil",
-				"lemon juice"
-			],
-			"instructions": "Chop lettuce, tomatoes, cucumbers, radishes, and mint. Tear toasted pita into pieces. Mix olive oil, lemon juice, salt and pepper to make dressing. Toss vegetables and pita with dressing.",
-			"nutrition": {
-				"calories": 150,
-				"protein": 4,
-				"fat": 8,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 64,
-			"name": "Shakshuka",
-			"description": "Eggs poached in a spicy tomato and pepper sauce.",
-			"ingredients": [
-				"eggs",
-				"tomatoes",
-				"bell peppers",
-				"onion",
-				"garlic",
-				"cumin",
-				"paprika"
-			],
-			"instructions": "Sauté onions and bell peppers, then add garlic and spices. Pour in chopped tomatoes and simmer until thick. Make wells in the sauce and crack eggs into them. Cover and cook until eggs set.",
-			"nutrition": {
-				"calories": 200,
-				"protein": 10,
-				"fat": 10,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 65,
-			"name": "Turkish Coffee",
-			"description": "Strong, unfiltered coffee from Turkey.",
-			"ingredients": ["finely ground coffee", "water", "cardamom", "sugar"],
-			"instructions": "Combine water, finely ground coffee, and cardamom in a cezve or small pot. Heat slowly until it begins to froth (do not boil over). Pour coffee into cups without filtering, letting grounds settle.",
-			"nutrition": {
-				"calories": 50,
-				"protein": 0,
-				"fat": 0,
-				"carbohydrates": 0
-			}
-		},
-		{
-			"id": 66,
-			"name": "Jollof Rice",
-			"description": "Spicy West African rice dish cooked in tomato stew.",
-			"ingredients": [
-				"rice",
-				"tomato sauce",
-				"onions",
-				"bell peppers",
-				"scotch bonnet pepper",
-				"chicken or vegetable broth",
-				"thyme"
-			],
-			"instructions": "Sauté onions and peppers in oil, then add tomato sauce and spices to make a stew. Stir in rice and broth, cover, and simmer until rice is cooked and absorbs the flavors. Serve hot.",
-			"nutrition": {
-				"calories": 350,
-				"protein": 7,
-				"fat": 10,
-				"carbohydrates": 60
-			}
-		},
-		{
-			"id": 67,
-			"name": "Couscous with Vegetables",
-			"description": "North African steamed semolina with stewed vegetables.",
-			"ingredients": [
-				"couscous",
-				"carrots",
-				"zucchini",
-				"chickpeas",
-				"tomato paste",
-				"garlic",
-				"cumin"
-			],
-			"instructions": "Steam couscous with a bit of oil or butter. Sauté garlic and vegetables, add tomato paste and spices, and simmer to make a stew. Pour the vegetable stew over couscous and fluff together before serving.",
-			"nutrition": {
-				"calories": 320,
-				"protein": 8,
-				"fat": 10,
-				"carbohydrates": 55
-			}
-		},
-		{
-			"id": 68,
-			"name": "Injera and Doro Wat",
-			"description": "Ethiopian flatbread with spicy chicken stew.",
-			"ingredients": [
-				"teff flour (for injera)",
-				"chicken",
-				"berbere spice",
-				"onions",
-				"garlic",
-				"clarified butter (niter kibbeh)"
-			],
-			"instructions": "Prepare injera batter and let ferment, then pour thin batter onto a griddle to make spongy flatbread. For doro wat, cook onions slowly until caramelized, add berbere and garlic, then chicken and simmer with niter kibbeh until thick and rich. Serve stew on top of injera.",
-			"nutrition": {
-				"calories": 500,
-				"protein": 30,
-				"fat": 25,
-				"carbohydrates": 45
-			}
-		},
-		{
-			"id": 69,
-			"name": "Bunny Chow",
-			"description": "South African hollowed-out bread filled with curry.",
-			"ingredients": [
-				"bread loaf",
-				"beef or chicken curry",
-				"onions",
-				"tomatoes",
-				"curry powder",
-				"garlic",
-				"ginger"
-			],
-			"instructions": "Hollow out a quarter loaf of bread. Cook a spicy curry with onions, tomatoes and chosen meat. Fill the bread shell with hot curry. Serve as a hearty sandwich.",
-			"nutrition": {
-				"calories": 600,
-				"protein": 25,
-				"fat": 20,
-				"carbohydrates": 80
-			}
-		},
-		{
-			"id": 70,
-			"name": "Bobotie",
-			"description": "South African baked dish of spiced minced meat with egg topping.",
-			"ingredients": [
-				"ground beef",
-				"bread",
-				"milk",
-				"onions",
-				"curry powder",
-				"raisins",
-				"eggs"
-			],
-			"instructions": "Soak bread in milk. Sauté onions and curry, add ground beef and raisins, and cook together. Press mixture into a baking dish, pour beaten eggs and milk on top. Bake until set and golden.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 22,
-				"fat": 25,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 71,
-			"name": "Egusi Soup",
-			"description": "Nigerian stew made with ground melon seeds and vegetables.",
-			"ingredients": [
-				"egusi (melon seeds)",
-				"leafy greens (spinach or bitter leaf)",
-				"meat or fish",
-				"onions",
-				"palm oil",
-				"stockfish"
-			],
-			"instructions": "Blend egusi seeds into a paste. Sauté onions and palm oil, add blended egusi and stir to cook. Add meat, fish, and stock to simmer. Stir in chopped greens and cook until oil separates and soup thickens. Serve with fufu or rice.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 18,
-				"fat": 20,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 72,
-			"name": "Moroccan Lamb Tagine",
-			"description": "Slow-cooked Moroccan stew with lamb, spices, and dried fruits.",
-			"ingredients": [
-				"lamb",
-				"onions",
-				"ginger",
-				"cinnamon",
-				"cumin",
-				"apricots",
-				"almonds",
-				"preserved lemon"
-			],
-			"instructions": "Brown lamb pieces, then cook with onions and spices. Add dried apricots, almonds, and preserved lemon. Slow-cook or bake in a tagine pot until lamb is tender and sauce is thick. Serve with couscous.",
-			"nutrition": {
-				"calories": 550,
-				"protein": 35,
-				"fat": 30,
-				"carbohydrates": 25
-			}
-		},
-		{
-			"id": 73,
-			"name": "Puff-Puff",
-			"description": "West African sweet deep-fried dough balls.",
-			"ingredients": [
-				"flour",
-				"yeast",
-				"sugar",
-				"water",
-				"salt",
-				"oil for frying"
-			],
-			"instructions": "Mix flour, yeast, sugar, salt and water to make a batter. Let it rise until bubbly. Drop spoonfuls of batter into hot oil and fry until golden brown. Drain and serve warm, dusted with sugar.",
-			"nutrition": {
-				"calories": 350,
-				"protein": 5,
-				"fat": 15,
-				"carbohydrates": 50
-			}
-		},
-		{
-			"id": 74,
-			"name": "Mandazi",
-			"description": "East African sweet fried dough, similar to a donut.",
-			"ingredients": [
-				"flour",
-				"coconut milk",
-				"yeast",
-				"sugar",
-				"cardamom",
-				"oil for frying"
-			],
-			"instructions": "Combine flour, coconut milk, yeast, sugar, and cardamom to make dough. Let it rise. Roll out and cut into triangles or shapes. Fry in hot oil until lightly browned on both sides. Serve plain or with jam.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 5,
-				"fat": 10,
-				"carbohydrates": 50
-			}
-		},
-		{
-			"id": 75,
-			"name": "Ugali and Sukuma Wiki",
-			"description": "Kenyan staple of maize porridge (ugali) with sautéed collard greens (sukuma wiki).",
-			"ingredients": [
-				"maize meal (cornmeal)",
-				"water",
-				"collard greens",
-				"onion",
-				"tomatoes",
-				"oil",
-				"salt"
-			],
-			"instructions": "Boil water and slowly stir in maize meal until thick to make ugali. For sukuma wiki, sauté onions and tomatoes, add chopped collard greens and cook until tender. Serve the collard greens alongside a mound of ugali.",
-			"nutrition": {
-				"calories": 400,
-				"protein": 8,
-				"fat": 5,
-				"carbohydrates": 80
-			}
-		},
-		{
-			"id": 76,
-			"name": "Sushi Rolls",
-			"description": "Japanese vinegared rice rolled with fish or vegetables in seaweed.",
-			"ingredients": [
-				"sushi rice",
-				"nori seaweed",
-				"raw fish or tofu",
-				"cucumber",
-				"avocado",
-				"soy sauce",
-				"wasabi"
-			],
-			"instructions": "Cook sushi rice and season with vinegar. Place a sheet of nori on a bamboo mat, spread rice, and arrange fillings like fish or veggies. Roll tightly and slice into pieces. Serve with soy sauce and wasabi.",
-			"nutrition": {
-				"calories": 200,
-				"protein": 6,
-				"fat": 2,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 77,
-			"name": "Tonkotsu Ramen",
-			"description": "Japanese noodle soup with rich pork bone broth.",
-			"ingredients": [
-				"ramen noodles",
-				"pork bone broth",
-				"pork belly",
-				"green onions",
-				"nori",
-				"soft-boiled egg"
-			],
-			"instructions": "Simmer pork bones for hours to make a milky broth. Cook ramen noodles separately. Slice pork belly and soft-boil eggs. Assemble noodles in a bowl, pour hot broth over, and top with pork, egg, green onions, and nori.",
-			"nutrition": {
-				"calories": 600,
-				"protein": 30,
-				"fat": 25,
-				"carbohydrates": 55
-			}
-		},
-		{
-			"id": 78,
-			"name": "Tempura",
-			"description": "Assorted seafood and vegetables battered and deep-fried.",
-			"ingredients": [
-				"shrimp",
-				"sweet potato",
-				"eggplant",
-				"tempura batter mix",
-				"ice-cold water",
-				"oil for frying"
-			],
-			"instructions": "Make tempura batter with flour and ice-cold water. Dip shrimp and sliced vegetables in batter, then fry in hot oil until golden and crisp. Drain excess oil and serve with dipping sauce.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 8,
-				"fat": 15,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 79,
-			"name": "Miso Soup",
-			"description": "Japanese soup made from fermented soybean paste.",
-			"ingredients": [
-				"miso paste",
-				"dashi (broth)",
-				"tofu",
-				"seaweed",
-				"green onions"
-			],
-			"instructions": "Heat dashi broth and stir in miso paste. Add cubed tofu and wakame seaweed. Warm through but do not boil. Serve garnished with sliced green onions.",
-			"nutrition": {
-				"calories": 60,
-				"protein": 3,
-				"fat": 2,
-				"carbohydrates": 8
-			}
-		},
-		{
-			"id": 80,
-			"name": "Yakitori",
-			"description": "Japanese skewered grilled chicken, often glazed with tare sauce.",
-			"ingredients": [
-				"chicken thighs",
-				"soy sauce",
-				"sake",
-				"mirin",
-				"sugar",
-				"green onions",
-				"bamboo skewers"
-			],
-			"instructions": "Cut chicken into bite-sized pieces and thread onto skewers, alternating with onion pieces. Grill or broil while brushing with a sauce made of soy, sake, mirin, and sugar. Cook until glazed and juicy.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 20,
-				"fat": 10,
-				"carbohydrates": 5
-			}
-		},
-		{
-			"id": 81,
-			"name": "Udon Noodle Stir-Fry",
-			"description": "Thick Japanese noodles stir-fried with vegetables.",
-			"ingredients": [
-				"udon noodles",
-				"carrot",
-				"cabbage",
-				"soy sauce",
-				"mirin",
-				"sesame oil",
-				"green onions"
-			],
-			"instructions": "Cook udon noodles and set aside. Stir-fry vegetables in sesame oil, add noodles back and pour soy sauce and mirin. Toss until noodles are coated and flavors meld.",
-			"nutrition": {
-				"calories": 350,
-				"protein": 10,
-				"fat": 5,
-				"carbohydrates": 70
-			}
-		},
-		{
-			"id": 82,
-			"name": "Japanese Curry Rice",
-			"description": "Mild Japanese curry with vegetables served over rice.",
-			"ingredients": [
-				"Japanese curry roux cubes",
-				"potatoes",
-				"carrots",
-				"onion",
-				"chicken",
-				"rice"
-			],
-			"instructions": "Brown chicken pieces, then sauté onions, carrots, and potatoes. Add water and curry roux cubes, simmer until vegetables are tender and curry thickens. Serve over steamed rice.",
-			"nutrition": {
-				"calories": 500,
-				"protein": 15,
-				"fat": 18,
-				"carbohydrates": 65
-			}
-		},
-		{
-			"id": 83,
-			"name": "Onigiri",
-			"description": "Japanese rice balls typically wrapped in seaweed with fillings.",
-			"ingredients": [
-				"sushi rice",
-				"nori",
-				"salt",
-				"pickled plum or tuna filling"
-			],
-			"instructions": "Cook sushi rice and season lightly with salt. Shape rice into triangular or cylindrical forms around a filling like pickled plum. Wrap the ball with a strip of nori.",
-			"nutrition": {
-				"calories": 180,
-				"protein": 4,
-				"fat": 1,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 84,
-			"name": "Matcha Tea",
-			"description": "Japanese green tea powder whisked into hot water.",
-			"ingredients": ["matcha powder", "hot water"],
-			"instructions": "Sift matcha powder into a bowl. Pour hot water (not boiling) and whisk until frothy. Serve immediately.",
-			"nutrition": {
-				"calories": 5,
-				"protein": 0,
-				"fat": 0,
-				"carbohydrates": 1
-			}
-		},
-		{
-			"id": 85,
-			"name": "Mochi Ice Cream",
-			"description": "Sweet ice cream wrapped in a sticky rice cake shell.",
-			"ingredients": [
-				"sweet rice flour",
-				"sugar",
-				"water",
-				"ice cream of choice"
-			],
-			"instructions": "Mix rice flour, water, and sugar into a dough and microwave until thick. Let cool. Dust mochi dough, flatten, and wrap around a scoop of ice cream. Freeze until firm before serving.",
-			"nutrition": {
-				"calories": 200,
-				"protein": 3,
-				"fat": 7,
-				"carbohydrates": 32
-			}
-		},
-		{
-			"id": 86,
-			"name": "Greek Salad",
-			"description": "Mediterranean salad with tomatoes, cucumber, feta cheese, and olives.",
-			"ingredients": [
-				"tomatoes",
-				"cucumber",
-				"feta cheese",
-				"olives",
-				"red onion",
-				"olive oil",
-				"oregano"
-			],
-			"instructions": "Chop tomatoes, cucumber, and red onion. Mix in a bowl with olives. Drizzle with olive oil and sprinkle with oregano. Top with crumbled feta cheese and serve chilled.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 6,
-				"fat": 18,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 87,
-			"name": "Paella",
-			"description": "Spanish saffron rice dish with seafood, chicken, and vegetables.",
-			"ingredients": [
-				"paella rice",
-				"saffron",
-				"shrimp",
-				"chicken",
-				"peas",
-				"bell peppers",
-				"onion",
-				"garlic"
-			],
-			"instructions": "Sauté onion, garlic, and peppers in olive oil. Add rice and toast lightly, then pour in broth with saffron. Arrange chicken, shrimp, and peas on top. Cover and simmer without stirring until rice is cooked and liquid is absorbed.",
-			"nutrition": {
-				"calories": 550,
-				"protein": 25,
-				"fat": 15,
-				"carbohydrates": 70
-			}
-		},
-		{
-			"id": 88,
-			"name": "Ratatouille",
-			"description": "French stewed vegetables including eggplant, zucchini, and tomatoes.",
-			"ingredients": [
-				"eggplant",
-				"zucchini",
-				"tomatoes",
-				"bell peppers",
-				"onion",
-				"garlic",
-				"herbs de Provence"
-			],
-			"instructions": "Slice all vegetables. Sauté onions and garlic, then layer sliced eggplant, zucchini, peppers, and tomatoes in a pot. Season with salt and herbs, then simmer on low heat until tender. Serve warm or at room temperature.",
-			"nutrition": {
-				"calories": 200,
-				"protein": 5,
-				"fat": 5,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 89,
-			"name": "Greek Moussaka",
-			"description": "Baked Mediterranean dish with layers of eggplant, meat sauce, and béchamel.",
-			"ingredients": [
-				"eggplant",
-				"ground lamb or beef",
-				"tomato sauce",
-				"potatoes",
-				"onion",
-				"garlic",
-				"cheese",
-				"milk",
-				"flour",
-				"butter"
-			],
-			"instructions": "Slice and fry eggplant and potatoes. Sauté onion and garlic, add meat and tomato sauce to make filling. Layer potatoes, eggplant, and meat sauce in a baking dish. Pour béchamel sauce made with butter, flour, and milk on top. Bake until golden.",
-			"nutrition": {
-				"calories": 600,
-				"protein": 30,
-				"fat": 25,
-				"carbohydrates": 40
-			}
-		},
-		{
-			"id": 90,
-			"name": "Gelato",
-			"description": "Italian-style ice cream with a dense, creamy texture.",
-			"ingredients": [
-				"milk",
-				"cream",
-				"sugar",
-				"egg yolks",
-				"flavoring (vanilla or fruit)"
-			],
-			"instructions": "Heat milk and cream with sugar until warm. Temper egg yolks with a bit of warm milk, then combine with the rest. Cook on low heat while stirring until slightly thickened. Cool mixture, add flavoring, then churn in an ice cream maker until firm.",
-			"nutrition": {
-				"calories": 250,
-				"protein": 5,
-				"fat": 12,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 91,
-			"name": "Bibimbap",
-			"description": "Korean rice bowl topped with assorted vegetables, meat, and egg.",
-			"ingredients": [
-				"rice",
-				"beef or tofu",
-				"spinach",
-				"bean sprouts",
-				"carrots",
-				"gochujang (chili paste)",
-				"egg",
-				"sesame oil"
-			],
-			"instructions": "Cook rice and divide into bowls. Sauté each vegetable (spinach, sprouts, carrots) separately with a bit of garlic and sesame oil. Cook the beef until done. Fry an egg sunny-side-up. Arrange veggies, beef, and egg on rice. Serve with gochujang sauce.",
-			"nutrition": {
-				"calories": 500,
-				"protein": 20,
-				"fat": 15,
-				"carbohydrates": 65
-			}
-		},
-		{
-			"id": 92,
-			"name": "Kimchi",
-			"description": "Korean fermented spicy napa cabbage.",
-			"ingredients": [
-				"napa cabbage",
-				"salt",
-				"gochugaru (Korean chili flakes)",
-				"garlic",
-				"ginger",
-				"fish sauce"
-			],
-			"instructions": "Cut cabbage and salt it to draw out water. Rinse and drain. Mix chili flakes, garlic, ginger, and fish sauce into a paste. Massage paste into cabbage leaves. Pack tightly into jars and let ferment at room temperature for a few days.",
-			"nutrition": {
-				"calories": 50,
-				"protein": 2,
-				"fat": 1,
-				"carbohydrates": 4
-			}
-		},
-		{
-			"id": 93,
-			"name": "Pho",
-			"description": "Vietnamese noodle soup with aromatic broth, beef, herbs, and rice noodles.",
-			"ingredients": [
-				"beef bones",
-				"rice noodles",
-				"ginger",
-				"onions",
-				"star anise",
-				"cinnamon",
-				"fish sauce",
-				"bean sprouts",
-				"basil",
-				"lime"
-			],
-			"instructions": "Char ginger and onions, then simmer with beef bones and spices to make broth. Cook rice noodles separately. Assemble noodles in bowls, pour hot broth over them with thinly sliced beef, then top with bean sprouts, basil, and lime wedges.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 30,
-				"fat": 10,
-				"carbohydrates": 60
-			}
-		},
-		{
-			"id": 94,
-			"name": "Banh Mi",
-			"description": "Vietnamese sandwich with pickled vegetables, cilantro, and grilled meat in a baguette.",
-			"ingredients": [
-				"baguette",
-				"grilled pork or chicken",
-				"pickled carrots and daikon",
-				"cilantro",
-				"mayonnaise",
-				"chili"
-			],
-			"instructions": "Toast a baguette. Spread mayonnaise inside. Layer slices of grilled meat with pickled carrots, daikon, fresh cilantro, and sliced chili inside the bread. Serve as a hearty sandwich.",
-			"nutrition": {
-				"calories": 450,
-				"protein": 20,
-				"fat": 15,
-				"carbohydrates": 50
-			}
-		},
-		{
-			"id": 95,
-			"name": "Gazpacho",
-			"description": "Cold Spanish tomato and vegetable soup, served chilled.",
-			"ingredients": [
-				"tomatoes",
-				"cucumber",
-				"bell pepper",
-				"bread crumbs",
-				"olive oil",
-				"sherry vinegar",
-				"garlic"
-			],
-			"instructions": "Blend chopped tomatoes, cucumber, pepper, garlic, bread crumbs, olive oil, and vinegar until smooth. Chill the soup in the refrigerator. Serve cold with a drizzle of olive oil and diced vegetables on top.",
-			"nutrition": {
-				"calories": 120,
-				"protein": 3,
-				"fat": 5,
-				"carbohydrates": 15
-			}
-		},
-		{
-			"id": 96,
-			"name": "Feijoada",
-			"description": "Brazilian black bean stew with pork and beef.",
-			"ingredients": [
-				"black beans",
-				"pork shoulder",
-				"sausage",
-				"beef",
-				"onion",
-				"garlic",
-				"bay leaf"
-			],
-			"instructions": "Soak black beans overnight. Cook beans with pieces of pork and beef in a pot. Sauté sausage with onion and garlic, then add to beans with bay leaf. Simmer until meat is tender and stew is thick. Serve with rice.",
-			"nutrition": {
-				"calories": 600,
-				"protein": 40,
-				"fat": 25,
-				"carbohydrates": 50
-			}
-		},
-		{
-			"id": 97,
-			"name": "Ceviche",
-			"description": "South American dish of raw fish cured in citrus juices.",
-			"ingredients": [
-				"raw fish (like sea bass)",
-				"lime juice",
-				"red onion",
-				"cilantro",
-				"chili",
-				"salt"
-			],
-			"instructions": "Cut raw fish into small pieces. Marinate in lime juice until fish turns opaque. Mix in finely chopped red onion, cilantro, chili, and salt. Serve chilled with tortilla chips or corn.",
-			"nutrition": {
-				"calories": 180,
-				"protein": 15,
-				"fat": 2,
-				"carbohydrates": 10
-			}
-		},
-		{
-			"id": 98,
-			"name": "Crepes",
-			"description": "Thin French pancakes served with sweet or savory fillings.",
-			"ingredients": ["flour", "milk", "eggs", "butter", "salt", "sugar"],
-			"instructions": "Whisk flour, milk, eggs, melted butter, a pinch of salt, and sugar into a thin batter. Pour a small amount into a hot nonstick pan, swirling to coat thinly. Cook until edges crisp, flip briefly, then fill or top as desired.",
-			"nutrition": {
-				"calories": 200,
-				"protein": 6,
-				"fat": 8,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 99,
-			"name": "Croissant",
-			"description": "Flaky buttery French pastry, often eaten for breakfast.",
-			"ingredients": ["flour", "yeast", "milk", "butter", "sugar", "salt"],
-			"instructions": "Prepare yeasted dough and layer with thin slices of butter, folding several times to create layers. Roll out dough, cut into triangles and roll into crescents. Let rise, then bake at 375°F until golden brown.",
-			"nutrition": {
-				"calories": 300,
-				"protein": 6,
-				"fat": 18,
-				"carbohydrates": 30
-			}
-		},
-		{
-			"id": 100,
-			"name": "Borscht",
-			"description": "Eastern European beet soup often served with sour cream.",
-			"ingredients": [
-				"beets",
-				"beef broth",
-				"cabbage",
-				"carrots",
-				"potatoes",
-				"onion",
-				"garlic",
-				"vinegar",
-				"sour cream"
-			],
-			"instructions": "Simmer chopped beets in beef broth until tender. In a separate pot, sauté onion, carrot and garlic, then add shredded cabbage and broth. Combine with beets and simmer further. Season with vinegar. Serve hot with a dollop of sour cream.",
-			"nutrition": {
-				"calories": 150,
-				"protein": 5,
-				"fat": 2,
-				"carbohydrates": 20
-			}
-		}
-	]
+  "foods": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "description": "Pizza is an Italian flatbread typically topped with tomato sauce, cheese and various toppings (meats, vegetables, etc.) and baked at high temperature:contentReference[oaicite:2]{index=2}.",
+      "instructions": "Prepare and roll dough, spread tomato sauce and cheese on top, add desired toppings, and bake in a hot oven until crust is golden and cheese melted.",
+      "ingredients": [
+        "flour",
+        "yeast",
+        "tomato sauce",
+        "mozzarella cheese",
+        "olive oil",
+        "salt"
+      ],
+      "nutrition": {
+        "calories": 261,
+        "protein": 12,
+        "fat": 11,
+        "carbohydrates": 29,
+        "fiber": 1,
+        "sugars": 3
+      },
+      "image": "https://cdn.pixabay.com/photo/2014/05/18/11/25/pizza-346985_1280.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pasta Carbonara",
+      "description": "Pasta Carbonara is an Italian pasta dish made with eggs, cheese (usually Pecorino Romano or Parmesan), cured pork (pancetta or guanciale), and black pepper, creating a creamy sauce.",
+      "instructions": "Cook pasta until al dente. In a pan, crisp the pancetta. Whisk eggs with cheese and pepper, then combine off-heat with hot pasta and pancetta so the eggs form a sauce. Serve immediately.",
+      "ingredients": [
+        "spaghetti",
+        "eggs",
+        "Parmesan cheese",
+        "pancetta (or guanciale)",
+        "black pepper"
+      ],
+      "nutrition": {
+        "calories": 450,
+        "protein": 15,
+        "fat": 25,
+        "carbohydrates": 40,
+        "fiber": 2,
+        "sugars": 3
+      },
+      "image": "https://cdn.pixabay.com/photo/2017/02/12/12/05/food-2059852_1280.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Risotto",
+      "description": "Risotto is a creamy Italian rice dish cooked slowly in broth until velvety.  Classic risotto often includes onions, white wine, Parmesan cheese, and butter.",
+      "instructions": "Sauté onions in butter, add Arborio rice and toast briefly. Deglaze with white wine. Gradually add hot broth, stirring until absorbed and rice is creamy. Finish with Parmesan cheese and butter.",
+      "ingredients": [
+        "Arborio rice",
+        "chicken or vegetable broth",
+        "onion",
+        "butter",
+        "Parmesan cheese",
+        "white wine"
+      ],
+      "nutrition": {
+        "calories": 300,
+        "protein": 6,
+        "fat": 10,
+        "carbohydrates": 44,
+        "fiber": 2,
+        "sugars": 3
+      },
+      "image": "https://cdn.pixabay.com/photo/2014/08/19/10/55/risotto-421391_640.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Tiramisu",
+      "description": "Tiramisu is a classic Italian dessert made of coffee-soaked ladyfingers layered with a whipped mixture of eggs, sugar, and mascarpone cheese, then dusted with cocoa powder.",
+      "instructions": "Dip ladyfinger biscuits quickly in strong coffee and arrange in a dish. Whip egg yolks with sugar, fold in mascarpone and whipped egg whites. Layer this cream over the ladyfingers, then chill. Dust with cocoa before serving.",
+      "ingredients": [
+        "ladyfingers",
+        "strong coffee",
+        "mascarpone cheese",
+        "eggs",
+        "sugar",
+        "cocoa powder"
+      ],
+      "nutrition": {
+        "calories": 240,
+        "protein": 4,
+        "fat": 12,
+        "carbohydrates": 32,
+        "fiber": 1,
+        "sugars": 24
+      },
+      "image": "https://cdn.pixabay.com/photo/2017/10/28/19/07/tiramisu-2897900_1280.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Gelato",
+      "description": "Gelato is Italian-style ice cream that is denser and creamier than regular ice cream, typically made with milk, sugar, and flavorings (fruit, nut, or chocolate).",
+      "instructions": "Combine milk, sugar, and desired flavor (e.g. fruit puree or nut paste). Heat and cool the mixture, then churn in an ice-cream maker until thick. Freeze briefly before serving.",
+      "ingredients": [
+        "milk",
+        "sugar",
+        "cream (optional)",
+        "flavoring (e.g. fruit, nuts)",
+        "eggs (for custard base, optional)"
+      ],
+      "nutrition": {
+        "calories": 200,
+        "protein": 4,
+        "fat": 10,
+        "carbohydrates": 23,
+        "fiber": 0,
+        "sugars": 21
+      },
+      "image": "https://cdn.pixabay.com/photo/2018/08/16/22/59/ice-cream-3611698_1280.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Lasagna",
+      "description": "Lasagna is an Italian baked dish with layers of flat pasta sheets, rich meat or tomato sauce, béchamel or cheese, and often ground meat or vegetables.",
+      "instructions": "Layer cooked lasagna noodles with meat sauce and béchamel (or ricotta), then top with cheese. Repeat layers and bake until bubbling and golden on top.",
+      "ingredients": [
+        "lasagna noodles",
+        "tomato sauce",
+        "ground beef (or pork)",
+        "béchamel sauce (or ricotta)",
+        "mozzarella cheese"
+      ],
+      "nutrition": {
+        "calories": 500,
+        "protein": 20,
+        "fat": 30,
+        "carbohydrates": 40,
+        "fiber": 3,
+        "sugars": 6
+      },
+      "image": "https://cdn.pixabay.com/photo/2021/02/08/12/40/lasagna-5994612_1280.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Kung Pao Chicken",
+      "description": "Kung Pao Chicken is a spicy Sichuan stir-fry dish of diced chicken, peanuts, vegetables and chili peppers in a savory-sweet sauce.",
+      "instructions": "Marinate chicken cubes in soy and cornstarch. Stir-fry dried chilies and Sichuan peppercorn until fragrant, add chicken and sauce (soy, vinegar, sugar), stir in roasted peanuts, and serve hot.",
+      "ingredients": [
+        "chicken",
+        "peanuts",
+        "dried red chilies",
+        "Sichuan peppercorns",
+        "soy sauce",
+        "vinegar",
+        "ginger",
+        "garlic"
+      ],
+      "nutrition": {
+        "calories": 300,
+        "protein": 20,
+        "fat": 15,
+        "carbohydrates": 20,
+        "fiber": 3,
+        "sugars": 6
+      },
+      "image": "https://cdn.pixabay.com/photo/2018/07/23/17/05/noodles-3557358_640.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Fried Rice",
+      "description": "Fried Rice is a Chinese-style stir-fried dish made by cooking rice with soy sauce, eggs, vegetables, and often meat or seafood.",
+      "instructions": "Cook and cool rice ahead of time. Stir-fry beaten eggs, set aside. In wok, sauté garlic/onion, add veggies and cooked meat, then add rice and soy sauce, mixing well. Stir in scrambled eggs at end.",
+      "ingredients": [
+        "cooked rice",
+        "eggs",
+        "peas and carrots",
+        "soy sauce",
+        "green onions",
+        "cooking oil"
+      ],
+      "nutrition": {
+        "calories": 250,
+        "protein": 8,
+        "fat": 6,
+        "carbohydrates": 40,
+        "fiber": 2,
+        "sugars": 3
+      },
+      "image": "https://cdn.pixabay.com/photo/2020/03/31/01/56/fried-rice-4985989_1280.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Dumplings",
+      "description": "Dumplings (e.g. Chinese jiaozi) are dough parcels typically filled with minced meat and/or vegetables, then boiled, steamed or pan-fried.",
+      "instructions": "Make a dough of flour and water, roll into wrappers. Fill with seasoned minced pork (or other) and vegetable mixture. Seal edges. Boil until they float, or steam/fry until cooked.",
+      "ingredients": [
+        "flour",
+        "pork or chicken",
+        "cabbage",
+        "ginger",
+        "garlic",
+        "soy sauce"
+      ],
+      "nutrition": {
+        "calories": 300,
+        "protein": 8,
+        "fat": 5,
+        "carbohydrates": 55,
+        "fiber": 3,
+        "sugars": 2
+      },
+      "image": "https://cdn.pixabay.com/photo/2014/10/26/12/03/dumplings-503775_640.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Peking Duck",
+      "description": "Peking Duck is a famous Chinese dish of roasted duck known for its crispy skin. Traditionally, the duck is served with thin pancakes, spring onions and hoisin sauce.",
+      "instructions": "Season and air-dry the duck, then roast until skin is crispy. Carve thin slices. Serve with warm pancakes, sliced scallions, cucumber, and hoisin sauce.",
+      "ingredients": [
+        "whole duck",
+        "scallions",
+        "cucumber",
+        "hoisin sauce",
+        "Chinese pancakes"
+      ],
+      "nutrition": {
+        "calories": 350,
+        "protein": 18,
+        "fat": 22,
+        "carbohydrates": 20,
+        "fiber": 2,
+        "sugars": 1
+      },
+      "image": "https://cdn.pixabay.com/photo/2021/11/26/14/54/peking-duck-6826022_1280.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Spring Rolls",
+      "description": "Spring Rolls are crispy Asian appetizers of thin pastry filled with vegetables (and sometimes meat) and deep-fried until golden.",
+      "instructions": "Prepare filling with shredded vegetables (and cooked meat/shrimp) seasoned with soy and ginger. Roll filling in spring roll wrappers, sealing edges with egg wash. Deep-fry until crispy.",
+      "ingredients": [
+        "spring roll wrappers",
+        "cabbage",
+        "carrots",
+        "mushrooms",
+        "soy sauce",
+        "oil for frying"
+      ],
+      "nutrition": {
+        "calories": 150,
+        "protein": 3,
+        "fat": 5,
+        "carbohydrates": 20,
+        "fiber": 2,
+        "sugars": 1
+      },
+      "image": "https://cdn.pixabay.com/photo/2023/07/18/19/19/spring-rolls-8135469_1280.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Butter Chicken",
+      "description": "Butter Chicken (Murgh Makhani) is an Indian curry of tandoori-grilled chicken pieces simmered in a creamy spiced tomato sauce.",
+      "instructions": "Marinate chicken in yogurt and spices and bake or grill. Sauté tomatoes, garlic, ginger; add spices and cream. Simmer until sauce thickens, then add chicken pieces and heat through.",
+      "ingredients": [
+        "chicken",
+        "yogurt",
+        "garam masala",
+        "tomato puree",
+        "cream",
+        "butter",
+        "garlic",
+        "ginger"
+      ],
+      "nutrition": {
+        "calories": 300,
+        "protein": 25,
+        "fat": 20,
+        "carbohydrates": 10,
+        "fiber": 0,
+        "sugars": 6
+      },
+      "image": "https://cdn.pixabay.com/photo/2018/07/06/16/05/tandoori-chicken-3520769_1280.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Biryani",
+      "description": "Biryani is a fragrant Indian/Persian rice dish layered with spiced meat (chicken, lamb, or vegetables) and cooked together, often garnished with fried onions and herbs.",
+      "instructions": "Cook rice with whole spices until half done. Sauté onions, ginger-garlic, add meat and biryani spices, cook until tender. Layer meat with par-cooked rice, cover tightly, and steam on low heat.",
+      "ingredients": [
+        "basmati rice",
+        "chicken or lamb",
+        "yogurt",
+        "biryani spice mix (e.g. garam masala)",
+        "onion",
+        "saffron"
+      ],
+      "nutrition": {
+        "calories": 420,
+        "protein": 12,
+        "fat": 15,
+        "carbohydrates": 60,
+        "fiber": 3,
+        "sugars": 5
+      },
+      "image": "https://cdn.pixabay.com/photo/2022/02/12/15/00/biryani-7009110_1280.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Samosa",
+      "description": "Samosas are deep-fried South Asian pastries filled with spiced potatoes, peas and sometimes meat. They are triangular and crunchy.",
+      "instructions": "Prepare a dough of flour and water. Make a filling of boiled potatoes, peas and spices (cumin, coriander). Fill dough pockets with filling, seal, and deep-fry until golden.",
+      "ingredients": [
+        "all-purpose flour",
+        "potatoes",
+        "peas",
+        "garam masala",
+        "cumin",
+        "oil for frying"
+      ],
+      "nutrition": {
+        "calories": 260,
+        "protein": 5,
+        "fat": 15,
+        "carbohydrates": 27,
+        "fiber": 3,
+        "sugars": 2
+      },
+      "image": "https://cdn.pixabay.com/photo/2022/05/07/11/37/samosa-7180078_1280.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Tandoori Chicken",
+      "description": "Tandoori Chicken is an Indian dish where chicken pieces are marinated in yogurt and spices (including tandoori masala and turmeric) and traditionally roasted in a clay oven (tandoor).",
+      "instructions": "Marinate chicken in yogurt mixed with tandoori spices and lemon juice. Let sit for hours. Roast or grill the chicken until cooked, basting with marinade occasionally.",
+      "ingredients": [
+        "chicken",
+        "yogurt",
+        "tandoori masala spice",
+        "garlic",
+        "ginger",
+        "lemon"
+      ],
+      "nutrition": {
+        "calories": 230,
+        "protein": 23,
+        "fat": 13,
+        "carbohydrates": 5,
+        "fiber": 0,
+        "sugars": 2
+      },
+      "image": "https://cdn.pixabay.com/photo/2017/10/19/08/20/tandoori-2769079_640.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Dal Makhani",
+      "description": "Dal Makhani is a rich Punjabi dish of black lentils and kidney beans simmered with butter and cream, flavored with ginger, garlic and spices.",
+      "instructions": "Soak black lentils and kidney beans overnight. Pressure-cook with water. In a pan, sauté onions, garlic, ginger, spices and tomato purée. Add cooked lentils, cream and butter, simmer until thick.",
+      "ingredients": [
+        "black lentils (urad dal)",
+        "kidney beans (rajma)",
+        "tomato",
+        "cream",
+        "butter",
+        "garam masala",
+        "garlic",
+        "ginger"
+      ],
+      "nutrition": {
+        "calories": 250,
+        "protein": 12,
+        "fat": 15,
+        "carbohydrates": 22,
+        "fiber": 6,
+        "sugars": 4
+      },
+      "image": "https://cdn.pixabay.com/photo/2015/05/02/01/04/miso-soup-749368_1280.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Tacos",
+      "description": "Tacos are a traditional Mexican food consisting of small hand-sized corn or flour tortillas topped with filling (meat, beans, vegetables) and garnishes.",
+      "instructions": "Warm tortillas. Fill with seasoned cooked meat (or beans), then top with chopped onion, cilantro, and a squeeze of lime or salsa.",
+      "ingredients": [
+        "corn or flour tortillas",
+        "ground beef or chicken",
+        "lettuce",
+        "tomato",
+        "cheese",
+        "salsa"
+      ],
+      "nutrition": {
+        "calories": 170,
+        "protein": 6,
+        "fat": 10,
+        "carbohydrates": 13,
+        "fiber": 3,
+        "sugars": 1
+      },
+      "image": "https://cdn.pixabay.com/photo/2017/06/29/20/09/plugs-2456040_640.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Burrito",
+      "description": "A Burrito is a Mexican dish where a flour tortilla is wrapped around fillings such as seasoned rice, beans, meat, cheese and salsa.",
+      "instructions": "Spread rice, beans, cooked meat, cheese and salsa on a warm tortilla. Fold in edges and roll tightly into a cylinder. Serve whole or grilled briefly to seal.",
+      "ingredients": [
+        "flour tortillas",
+        "rice",
+        "beans",
+        "chicken or beef",
+        "cheese",
+        "salsa"
+      ],
+      "nutrition": {
+        "calories": 320,
+        "protein": 12,
+        "fat": 12,
+        "carbohydrates": 40,
+        "fiber": 5,
+        "sugars": 3
+      },
+      "image": "https://cdn.pixabay.com/photo/2019/02/20/09/44/hamburger-4008822_640.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Guacamole",
+      "description": "Guacamole is a Mexican dip made from mashed ripe avocados mixed with lime juice, onion, cilantro, tomatoes and chili peppers.",
+      "instructions": "Mash ripe avocados in a bowl. Stir in chopped red onion, diced tomatoes, chopped cilantro, lime juice, salt and minced chili pepper. Mix and serve fresh.",
+      "ingredients": [
+        "avocado",
+        "lime",
+        "red onion",
+        "tomato",
+        "cilantro",
+        "chili pepper"
+      ],
+      "nutrition": {
+        "calories": 150,
+        "protein": 2,
+        "fat": 15,
+        "carbohydrates": 8,
+        "fiber": 6,
+        "sugars": 1
+      },
+      "image": ""
+    },
+    {
+      "id": 20,
+      "name": "Enchiladas",
+      "description": "Enchiladas are Mexican tortillas rolled around a filling (meat, cheese, or beans) and covered with chili pepper sauce and cheese, then baked.",
+      "instructions": "Dip corn tortillas in enchilada sauce, fill with shredded chicken or cheese, roll up and place in a baking dish. Pour more sauce on top, sprinkle cheese, and bake until bubbly.",
+      "ingredients": [
+        "corn tortillas",
+        "chicken or cheese",
+        "enchilada sauce",
+        "cheddar cheese",
+        "onion",
+        "cilantro"
+      ],
+      "nutrition": {
+        "calories": 350,
+        "protein": 16,
+        "fat": 18,
+        "carbohydrates": 32,
+        "fiber": 4,
+        "sugars": 3
+      },
+      "image": "https://cdn.pixabay.com/photo/2020/08/25/17/02/enchiladas-5517479_1280.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Salsa",
+      "description": "Salsa (Pico de Gallo) is a fresh Mexican sauce made from chopped tomatoes, onion, chili peppers, cilantro, and lime juice. It can be cooked or fresh.",
+      "instructions": "Combine diced tomatoes, onion, jalapeño, chopped cilantro, lime juice and salt in a bowl. Toss together and let sit briefly for flavors to meld. Serve chilled or room temperature.",
+      "ingredients": [
+        "tomatoes",
+        "red onion",
+        "jalapeño pepper",
+        "cilantro",
+        "lime juice"
+      ],
+      "nutrition": {
+        "calories": 50,
+        "protein": 1,
+        "fat": 0,
+        "carbohydrates": 10,
+        "fiber": 2,
+        "sugars": 5
+      },
+      "image": "https://cdn.pixabay.com/photo/2017/11/25/01/42/salsa-2976042_1280.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Sushi",
+      "description": "Sushi is a Japanese dish of vinegared rice, often topped or rolled with raw fish, vegetables, and sometimes seaweed.",
+      "instructions": "Cook sushi rice and season with vinegar. Place seaweed on mat, add rice and fillings (raw fish or vegetables), roll tightly, and slice into pieces. Serve with soy sauce, wasabi and pickled ginger.",
+      "ingredients": [
+        "sushi rice",
+        "rice vinegar",
+        "nori (seaweed)",
+        "raw fish or seafood",
+        "cucumber or avocado"
+      ],
+      "nutrition": {
+        "calories": 200,
+        "protein": 5,
+        "fat": 3,
+        "carbohydrates": 38,
+        "fiber": 1,
+        "sugars": 1
+      },
+      "image": "https://cdn.pixabay.com/photo/2022/02/09/17/09/sushi-7003827_1280.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Ramen",
+      "description": "Ramen is a Japanese noodle soup with Chinese-style wheat noodles in a meat or fish broth, often flavored with soy or miso, and topped with meat, egg, and vegetables.",
+      "instructions": "Simmer broth with soy sauce, miso or seasoning. Cook ramen noodles separately. In a bowl, add noodles, pour hot broth over, then top with sliced pork, boiled egg, seaweed, and green onions.",
+      "ingredients": [
+        "ramen noodles",
+        "pork or chicken broth",
+        "soy sauce",
+        "boiled egg",
+        "green onions",
+        "nori (seaweed)"
+      ],
+      "nutrition": {
+        "calories": 430,
+        "protein": 15,
+        "fat": 14,
+        "carbohydrates": 58,
+        "fiber": 3,
+        "sugars": 2
+      },
+      "image": "https://cdn.pixabay.com/photo/2022/05/10/18/50/ramen-7187810_1280.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Tempura",
+      "description": "Tempura is a Japanese dish of seafood or vegetables dipped in a light batter and deep-fried until crispy.",
+      "instructions": "Prepare batter of cold water and flour. Dip shrimp or vegetable pieces in batter, then deep-fry in hot oil until crispy and light golden. Serve immediately with dipping sauce.",
+      "ingredients": [
+        "shrimp or vegetables (e.g. sweet potato, zucchini)",
+        "all-purpose flour",
+        "egg",
+        "cold water",
+        "vegetable oil for frying"
+      ],
+      "nutrition": {
+        "calories": 300,
+        "protein": 8,
+        "fat": 15,
+        "carbohydrates": 35,
+        "fiber": 2,
+        "sugars": 2
+      },
+      "image": "https://cdn.pixabay.com/photo/2020/04/20/07/28/japan-food-5066736_1280.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Miso Soup",
+      "description": "Miso Soup is a traditional Japanese soup made from dashi stock and miso paste, often containing tofu, seaweed and green onions.",
+      "instructions": "Heat dashi broth, add softened miso paste. Mix until dissolved. Add cubed tofu and wakame seaweed, simmer briefly. Serve hot garnished with chopped green onion.",
+      "ingredients": [
+        "dashi stock",
+        "miso paste",
+        "tofu",
+        "wakame seaweed",
+        "green onions"
+      ],
+      "nutrition": {
+        "calories": 40,
+        "protein": 3,
+        "fat": 1,
+        "carbohydrates": 6,
+        "fiber": 1,
+        "sugars": 2
+      },
+      "image": "https://cdn.pixabay.com/photo/2015/05/02/01/04/miso-soup-749368_1280.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Okonomiyaki",
+      "description": "Okonomiyaki is a Japanese savory pancake containing batter, cabbage, and often pork or seafood, topped with okonomiyaki sauce, mayo, and bonito flakes.",
+      "instructions": "Mix flour, egg, dashi (broth) and shredded cabbage into a batter. Fry a portion on a griddle, adding sliced pork belly on top. Flip to cook through. Spread with okonomiyaki sauce and mayo.",
+      "ingredients": [
+        "flour",
+        "egg",
+        "dashi (or water)",
+        "cabbage",
+        "pork belly",
+        "okonomiyaki sauce",
+        "mayonnaise"
+      ],
+      "nutrition": {
+        "calories": 500,
+        "protein": 10,
+        "fat": 26,
+        "carbohydrates": 55,
+        "fiber": 4,
+        "sugars": 5
+      },
+      "image": "https://cdn.pixabay.com/photo/2017/06/13/05/19/okonomiyaki-2397649_1280.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Croissant",
+      "description": "A croissant is a flaky French pastry made from layered yeast-leavened dough with butter, shaped like a crescent.",
+      "instructions": "Make a dough, layer with butter by folding and rolling (lamination). Cut into triangles, roll into crescents, let rise, then bake until golden brown.",
+      "ingredients": [
+        "flour",
+        "yeast",
+        "butter",
+        "milk",
+        "sugar",
+        "salt"
+      ],
+      "nutrition": {
+        "calories": 231,
+        "protein": 4,
+        "fat": 12,
+        "carbohydrates": 26,
+        "fiber": 1,
+        "sugars": 4
+      },
+      "image": "https://cdn.pixabay.com/photo/2012/02/29/12/17/bread-18987_640.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Coq au Vin",
+      "description": "Coq au Vin is a classic French stew of chicken braised with wine (typically Burgundy), lardons, mushrooms and onions.",
+      "instructions": "Brown chicken with bacon lardons. Remove and sauté onions and mushrooms in the same pan. Return chicken, add garlic and herbs, pour wine and broth, simmer for 1-2 hours until tender.",
+      "ingredients": [
+        "chicken pieces",
+        "red wine (Burgundy)",
+        "bacon lardons",
+        "mushrooms",
+        "onions",
+        "garlic",
+        "herbs (thyme, bay)"
+      ],
+      "nutrition": {
+        "calories": 400,
+        "protein": 25,
+        "fat": 18,
+        "carbohydrates": 10,
+        "fiber": 2,
+        "sugars": 3
+      },
+      "image": ""
+    },
+    {
+      "id": 29,
+      "name": "Ratatouille",
+      "description": "Ratatouille is a French Provençal vegetable stew made from tomatoes, eggplant, zucchini, bell peppers, onions, and herbs.",
+      "instructions": "Sauté onions and garlic in olive oil, add diced eggplant and zucchini, cook until softened. Stir in tomatoes and bell peppers, season with herbs (thyme, basil), simmer until vegetables are tender.",
+      "ingredients": [
+        "eggplant",
+        "zucchini",
+        "tomatoes",
+        "bell pepper",
+        "onion",
+        "garlic",
+        "herbs"
+      ],
+      "nutrition": {
+        "calories": 180,
+        "protein": 3,
+        "fat": 7,
+        "carbohydrates": 28,
+        "fiber": 5,
+        "sugars": 12
+      },
+      "image": "https://cdn.pixabay.com/photo/2017/09/10/15/07/vegetables-2735873_1280.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Crepes",
+      "description": "Crêpes are thin French pancakes made from a simple batter of flour, milk, and eggs, often filled with sweet or savory fillings.",
+      "instructions": "Whisk together flour, milk, and eggs to make a thin batter. Heat a non-stick pan, pour a small amount of batter and tilt to coat. Cook until set and lightly browned, then flip. Fill or top as desired.",
+      "ingredients": [
+        "flour",
+        "milk",
+        "eggs",
+        "butter"
+      ],
+      "nutrition": {
+        "calories": 200,
+        "protein": 5,
+        "fat": 5,
+        "carbohydrates": 34,
+        "fiber": 1,
+        "sugars": 4
+      },
+      "image": "https://cdn.pixabay.com/photo/2023/05/31/11/16/pancakes-8031139_1280.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Moussaka",
+      "description": "Moussaka is a Greek casserole dish with layers of eggplant, ground meat (typically lamb or beef), and béchamel sauce on top.",
+      "instructions": "Layer sliced and fried eggplant in a dish, then add cooked spiced ground lamb tomato sauce. Top with béchamel sauce. Bake until golden and bubbly.",
+      "ingredients": [
+        "eggplant",
+        "ground lamb or beef",
+        "tomato sauce",
+        "onion",
+        "garlic",
+        "béchamel sauce"
+      ],
+      "nutrition": {
+        "calories": 350,
+        "protein": 10,
+        "fat": 20,
+        "carbohydrates": 30,
+        "fiber": 4,
+        "sugars": 5
+      },
+      "image": ""
+    },
+    {
+      "id": 32,
+      "name": "Gyros",
+      "description": "Gyros are Greek sandwiches of meat (often lamb or chicken) cooked on a vertical rotisserie, served wrapped in a pita with tomatoes, onion, and tzatziki sauce.",
+      "instructions": "Season and stack sliced meat on a vertical rotisserie (or grill). Carve thin as it cooks. Serve in a warm pita bread with chopped tomato, onion, and tzatziki.",
+      "ingredients": [
+        "pita bread",
+        "lamb or chicken",
+        "tomato",
+        "onion",
+        "tzatziki sauce"
+      ],
+      "nutrition": {
+        "calories": 300,
+        "protein": 20,
+        "fat": 15,
+        "carbohydrates": 25,
+        "fiber": 3,
+        "sugars": 2
+      },
+      "image": "https://cdn.pixabay.com/photo/2018/10/15/23/21/gyros-3750261_1280.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Tzatziki",
+      "description": "Tzatziki is a Greek yogurt-based sauce or dip made with cucumber, garlic, lemon juice and dill or mint.",
+      "instructions": "Grate cucumber and squeeze out excess water. Mix thick yogurt with grated cucumber, minced garlic, lemon juice, olive oil and chopped dill or mint. Chill before serving.",
+      "ingredients": [
+        "Greek yogurt",
+        "cucumber",
+        "garlic",
+        "lemon juice",
+        "dill or mint"
+      ],
+      "nutrition": {
+        "calories": 50,
+        "protein": 2,
+        "fat": 4,
+        "carbohydrates": 3,
+        "fiber": 0,
+        "sugars": 2
+      },
+      "image": "https://cdn.pixabay.com/photo/2014/06/13/10/24/zaziki-368163_640.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Hummus",
+      "description": "Hummus is a Middle Eastern spread made from cooked, mashed chickpeas blended with tahini, lemon juice, garlic and olive oil.",
+      "instructions": "Blend cooked chickpeas, tahini, lemon juice, garlic, and olive oil in a food processor until smooth. Add salt to taste. Drizzle with olive oil and paprika to serve.",
+      "ingredients": [
+        "chickpeas",
+        "tahini (sesame paste)",
+        "lemon juice",
+        "garlic",
+        "olive oil"
+      ],
+      "nutrition": {
+        "calories": 160,
+        "protein": 5,
+        "fat": 10,
+        "carbohydrates": 14,
+        "fiber": 4,
+        "sugars": 0
+      },
+      "image": ""
+    },
+    {
+      "id": 35,
+      "name": "Falafel",
+      "description": "Falafel are deep-fried balls or patties made from ground chickpeas (or fava beans) mixed with herbs and spices, popular in Middle Eastern cuisine.",
+      "instructions": "Soak dried chickpeas and grind with onion, garlic, parsley, cumin and coriander. Form into balls or patties and deep-fry until crispy and golden.",
+      "ingredients": [
+        "chickpeas",
+        "onion",
+        "garlic",
+        "parsley",
+        "cumin",
+        "coriander"
+      ],
+      "nutrition": {
+        "calories": 330,
+        "protein": 10,
+        "fat": 15,
+        "carbohydrates": 40,
+        "fiber": 5,
+        "sugars": 2
+      },
+      "image": ""
+    },
+    {
+      "id": 36,
+      "name": "Shawarma",
+      "description": "Shawarma is a Middle Eastern wrap of spiced meat (often chicken, lamb or beef) that is slow-cooked on a vertical spit, shaved off, and served in pita or flatbread with salad and sauces.",
+      "instructions": "Marinate and roast meat on a spit or grill. Slice thinly. Serve wrapped in pita with toppings like lettuce, tomato, pickles, and garlic or tahini sauce.",
+      "ingredients": [
+        "flatbread or pita",
+        "chicken or beef",
+        "yogurt",
+        "garlic",
+        "lemon juice",
+        "spice mix (cumin, turmeric, paprika)"
+      ],
+      "nutrition": {
+        "calories": 450,
+        "protein": 25,
+        "fat": 20,
+        "carbohydrates": 45,
+        "fiber": 3,
+        "sugars": 4
+      },
+      "image": ""
+    },
+    {
+      "id": 37,
+      "name": "Pad Thai",
+      "description": "Pad Thai is a Thai stir-fried noodle dish with rice noodles, eggs, tofu or shrimp, bean sprouts and peanuts in a sweet-sour tamarind sauce.",
+      "instructions": "Stir-fry soaked rice noodles with garlic, tofu or shrimp, and scrambled eggs. Add a sauce made from tamarind paste, fish sauce, sugar. Toss with bean sprouts, serve topped with crushed peanuts.",
+      "ingredients": [
+        "rice noodles",
+        "egg",
+        "shrimp or tofu",
+        "bean sprouts",
+        "peanuts",
+        "tamarind paste",
+        "fish sauce"
+      ],
+      "nutrition": {
+        "calories": 410,
+        "protein": 10,
+        "fat": 22,
+        "carbohydrates": 45,
+        "fiber": 3,
+        "sugars": 8
+      },
+      "image": ""
+    },
+    {
+      "id": 38,
+      "name": "Pho",
+      "description": "Pho is a Vietnamese soup consisting of broth, rice noodles, herbs, and meat (usually beef or chicken).",
+      "instructions": "Simmer beef bones or chicken with spices (star anise, cinnamon, ginger) to make a broth. Cook rice noodles. In a bowl, add noodles, pour hot broth over with thinly sliced beef or chicken, and garnish with fresh herbs, bean sprouts and lime.",
+      "ingredients": [
+        "rice noodles",
+        "beef or chicken",
+        "broth",
+        "ginger",
+        "star anise",
+        "bean sprouts",
+        "herbs (cilantro, Thai basil)"
+      ],
+      "nutrition": {
+        "calories": 350,
+        "protein": 25,
+        "fat": 11,
+        "carbohydrates": 40,
+        "fiber": 3,
+        "sugars": 3
+      },
+      "image": ""
+    },
+    {
+      "id": 39,
+      "name": "Nasi Goreng",
+      "description": "Nasi Goreng is an Indonesian fried rice dish flavored with sweet soy sauce (kecap manis), shrimp paste and spices, often topped with a fried egg.",
+      "instructions": "Stir-fry cooked rice with garlic, shallot, chili, shrimp paste and kecap manis (sweet soy). Add vegetables and meat if desired. Top with a fried egg before serving.",
+      "ingredients": [
+        "cooked rice",
+        "kecap manis (sweet soy sauce)",
+        "shrimp paste",
+        "egg",
+        "shallot",
+        "chili"
+      ],
+      "nutrition": {
+        "calories": 330,
+        "protein": 8,
+        "fat": 13,
+        "carbohydrates": 50,
+        "fiber": 3,
+        "sugars": 3
+      },
+      "image": ""
+    },
+    {
+      "id": 40,
+      "name": "Cheeseburger",
+      "description": "A Cheeseburger is an American sandwich consisting of a ground beef patty topped with cheese and served in a bun, often with lettuce, tomato and condiments.",
+      "instructions": "Grill or pan-fry a seasoned beef patty. Place patty on a toasted bun, add a slice of cheddar (or American) cheese, lettuce, tomato, onion and ketchup or mustard as desired.",
+      "ingredients": [
+        "beef patty",
+        "cheddar cheese",
+        "burger bun",
+        "lettuce",
+        "tomato",
+        "onion",
+        "ketchup"
+      ],
+      "nutrition": {
+        "calories": 300,
+        "protein": 17,
+        "fat": 15,
+        "carbohydrates": 30,
+        "fiber": 2,
+        "sugars": 5
+      },
+      "image": "https://cdn.pixabay.com/photo/2019/02/20/09/44/hamburger-4008822_640.jpg"
+    },
+    {
+      "id": 41,
+      "name": "BBQ Ribs",
+      "description": "BBQ Ribs are pork ribs slow-cooked or grilled and brushed with barbecue sauce, a staple of American barbecue cuisine.",
+      "instructions": "Season pork ribs with rub and smoke or slow-cook until tender. Brush with barbecue sauce and grill briefly to caramelize glaze. Serve with extra sauce.",
+      "ingredients": [
+        "pork ribs",
+        "barbecue sauce",
+        "brown sugar",
+        "paprika",
+        "garlic powder"
+      ],
+      "nutrition": {
+        "calories": 450,
+        "protein": 28,
+        "fat": 25,
+        "carbohydrates": 5,
+        "fiber": 0,
+        "sugars": 5
+      },
+      "image": ""
+    },
+    {
+      "id": 42,
+      "name": "Mac and Cheese",
+      "description": "Macaroni and Cheese is an American comfort food of elbow macaroni pasta baked in a creamy cheese sauce.",
+      "instructions": "Cook macaroni. Make a cheese sauce by melting butter, whisking in flour, then adding milk and shredded cheese. Combine sauce with macaroni, sprinkle breadcrumbs and cheese on top, bake until bubbly.",
+      "ingredients": [
+        "elbow macaroni",
+        "cheddar cheese",
+        "milk",
+        "butter",
+        "flour",
+        "breadcrumbs"
+      ],
+      "nutrition": {
+        "calories": 350,
+        "protein": 13,
+        "fat": 20,
+        "carbohydrates": 30,
+        "fiber": 2,
+        "sugars": 5
+      },
+      "image": ""
+    },
+    {
+      "id": 43,
+      "name": "Pancakes",
+      "description": "American pancakes are fluffy round cakes made from a batter of flour, eggs, milk and baking powder, typically served stacked with syrup.",
+      "instructions": "Whisk flour, milk, eggs and baking powder to make a batter. Pour onto a hot griddle, cook until bubbles form, flip and cook until golden. Serve with maple syrup and butter.",
+      "ingredients": [
+        "flour",
+        "milk",
+        "eggs",
+        "baking powder",
+        "sugar",
+        "butter"
+      ],
+      "nutrition": {
+        "calories": 175,
+        "protein": 4,
+        "fat": 5,
+        "carbohydrates": 30,
+        "fiber": 1,
+        "sugars": 10
+      },
+      "image": ""
+    },
+    {
+      "id": 44,
+      "name": "Ceviche",
+      "description": "Ceviche is a Latin American dish (Peruvian origin) of raw fish (or seafood) cured in citrus juices (like lime), mixed with onions, chili peppers and cilantro.",
+      "instructions": "Dice fresh fish. Marinate in lime juice for 10–15 minutes until opaque. Drain some liquid, toss with sliced red onion, chopped chili, cilantro, and season with salt.",
+      "ingredients": [
+        "white fish or shrimp",
+        "lime juice",
+        "red onion",
+        "cilantro",
+        "chili pepper"
+      ],
+      "nutrition": {
+        "calories": 150,
+        "protein": 25,
+        "fat": 1,
+        "carbohydrates": 8,
+        "fiber": 1,
+        "sugars": 3
+      },
+      "image": ""
+    },
+    {
+      "id": 45,
+      "name": "Arepas",
+      "description": "Arepas are Venezuelan/Colombian cornmeal flatbreads, grilled or fried and often stuffed or topped with cheese, meat or avocado.",
+      "instructions": "Mix pre-cooked cornmeal with water and salt to form a dough. Shape into patties and grill or fry until golden. Split and fill with cheese, beans, or shredded meat if desired.",
+      "ingredients": [
+        "pre-cooked cornmeal (arepa flour)",
+        "water",
+        "salt",
+        "cheese or meat (optional)"
+      ],
+      "nutrition": {
+        "calories": 150,
+        "protein": 3,
+        "fat": 2,
+        "carbohydrates": 30,
+        "fiber": 3,
+        "sugars": 0
+      },
+      "image": ""
+    },
+    {
+      "id": 46,
+      "name": "Empanadas",
+      "description": "Empanadas are Latin American pastries made by folding dough around a savory filling (meat, cheese, or vegetables) and baking or frying.",
+      "instructions": "Prepare dough from flour, fat and water. Make a filling of seasoned ground meat (or cheese). Fill dough circles, fold into half-moons and seal edges. Bake or deep-fry until golden.",
+      "ingredients": [
+        "flour",
+        "butter or lard",
+        "beef or chicken",
+        "onion",
+        "paprika",
+        "olive"
+      ],
+      "nutrition": {
+        "calories": 250,
+        "protein": 5,
+        "fat": 12,
+        "carbohydrates": 28,
+        "fiber": 2,
+        "sugars": 3
+      },
+      "image": ""
+    },
+    {
+      "id": 47,
+      "name": "Feijoada",
+      "description": "Feijoada is a Brazilian stew of black beans with pork (sausage, bacon, ribs) and beef, slow-cooked and often served with rice and orange slices.",
+      "instructions": "Soak black beans. Brown assorted pork cuts and sausage, then add beans and water or broth. Simmer slowly until meat is tender and stew thick. Serve with white rice and orange wedges.",
+      "ingredients": [
+        "black beans",
+        "pork shoulder",
+        "smoked sausage",
+        "bacon",
+        "garlic",
+        "onion",
+        "bay leaf"
+      ],
+      "nutrition": {
+        "calories": 490,
+        "protein": 25,
+        "fat": 20,
+        "carbohydrates": 48,
+        "fiber": 6,
+        "sugars": 2
+      },
+      "image": ""
+    },
+    {
+      "id": 48,
+      "name": "Jollof Rice",
+      "description": "Jollof Rice is a West African one-pot rice dish cooked in a tomato-based sauce with spices, often served with fried plantains or meat.",
+      "instructions": "Blend tomatoes, peppers and onions, cook to form a base. Add spices (thyme, curry, chili), then add rice and water or broth. Cover and simmer until rice is done, stirring occasionally.",
+      "ingredients": [
+        "long-grain rice",
+        "tomatoes",
+        "bell pepper",
+        "onion",
+        "thyme",
+        "curry powder"
+      ],
+      "nutrition": {
+        "calories": 300,
+        "protein": 6,
+        "fat": 5,
+        "carbohydrates": 58,
+        "fiber": 4,
+        "sugars": 3
+      },
+      "image": ""
+    },
+    {
+      "id": 49,
+      "name": "Bobotie",
+      "description": "Bobotie is a South African baked dish of spiced minced meat (often beef or lamb) topped with an egg-based custard.",
+      "instructions": "Sauté minced meat with onions, curry powder, fruit (raisin or apricot) and vinegar. Place in a baking dish. Pour beaten egg and milk mixture on top and bake until set.",
+      "ingredients": [
+        "ground beef or lamb",
+        "onion",
+        "curry powder",
+        "bread soaked in milk",
+        "egg",
+        "raisins"
+      ],
+      "nutrition": {
+        "calories": 400,
+        "protein": 18,
+        "fat": 25,
+        "carbohydrates": 25,
+        "fiber": 4,
+        "sugars": 6
+      },
+      "image": ""
+    },
+    {
+      "id": 50,
+      "name": "Tagine",
+      "description": "Tagine is a North African (Moroccan) slow-cooked stew named after the clay pot it’s cooked in, often made with lamb or chicken, vegetables, and spices like cumin and cinnamon.",
+      "instructions": "Brown meat with onions in the tagine pot, add spices (cumin, ginger, cinnamon), then add chopped vegetables and water. Cover and cook over low heat until meat is tender and sauce is rich.",
+      "ingredients": [
+        "lamb or chicken",
+        "onion",
+        "carrot",
+        "potato",
+        "olive oil",
+        "cumin",
+        "ginger",
+        "cinnamon"
+      ],
+      "nutrition": {
+        "calories": 360,
+        "protein": 20,
+        "fat": 15,
+        "carbohydrates": 40,
+        "fiber": 5,
+        "sugars": 8
+      },
+      "image": ""
+    }
+  ]
 }
