@@ -39,7 +39,7 @@
 
 Try **FoodieFetch** live on GitHub Pages:
 
-[https://.github.io/foodiefetch/](https://.github.io/foodiefetch/)
+(https://muhammadhassansaggaf.github.io/Foodie-Fetch/)
 
 > **Note:** Start the local API server before using the app.
 
@@ -49,7 +49,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-github-username>/foodiefetch.git
+git clone [https://github.com/MuhammadHassanSaggaf/foodiefetch.git]
 cd foodiefetch
 
 # Install json-server
