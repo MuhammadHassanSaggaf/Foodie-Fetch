@@ -49,7 +49,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-github-username>/foodiefetch.git
+git clone [https://github.com/MuhammadHassanSaggaf/foodiefetch.git]
 cd foodiefetch
 
 # Install json-server
