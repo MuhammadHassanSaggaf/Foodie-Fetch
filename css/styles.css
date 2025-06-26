@@ -28,16 +28,7 @@ body {
 	/* min-width: 100vh; */
 }
 
-body.dark-mode {
-	background: linear-gradient(
-		to right,
-		#0d1b2a,
-		#1b263b
-	); /* deep starry gradient */
-	color: #e0e1dd;
-	--icon-color: #e0e1dd; /* dark mode */
-	--icon-hover-color: #f0a500; /* dark mode hover */
-}
+
 
 nav {
 	display: flex;
