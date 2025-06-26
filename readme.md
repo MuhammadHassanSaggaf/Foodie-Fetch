@@ -39,7 +39,7 @@
 
 Try **FoodieFetch** live on GitHub Pages:
 
-[https://.github.io/foodiefetch/](https://.github.io/foodiefetch/)
+[https://.github.io/foodiefetch/](https://.github.io/foodiefetch/](https://muhammadhassansaggaf.github.io/Foodie-Fetch/)
 
 > **Note:** Start the local API server before using the app.
 
