@@ -30,7 +30,6 @@
 - **Real-Time Search**: Instant filtering of recipes by name.
 - **Recipe Cards**: Show recipe names and ingredients at a glance.
 - **Detailed View**: Click a card to reveal full instructions and ingredients.
-- **Dark Mode**: Toggleable theme, preference saved in Local Storage.
 - **Form Validation**: Ensures valid inputs and clears fields post-submit.
 - **Sidebar Navigation**: Access saved or recent recipes (future feature).
 - **Modular Code**: Clean, DRY JavaScript and organized CSS.
