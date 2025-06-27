@@ -26,7 +26,7 @@ function saveComments() {
 // ——————————————————————————————
 //  Fetch + render logic
 // ——————————————————————————————
-const API_URL = "http://localhost:3000/foods";
+const API_URL = "https://json-foods.onrender.com/foods";
 let allFoods = [];
 const container = document.getElementById("container");
 const searchInput = document.getElementById("searchInput");
